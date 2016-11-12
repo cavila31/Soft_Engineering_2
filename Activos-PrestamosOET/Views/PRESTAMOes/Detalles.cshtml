@@ -1,0 +1,271 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<div>
+    @Html.ActionLink("Regresar al Historial", "Historial", null, null, new { @class = "btn btn-default" })
+</div>
+
+<legend><h2>Detalles de la Solicitud</h2></legend>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("[id$=A3]").addClass("active");
+    });
+</script>
+@if ((Model.FECHA_RETIRO >= System.DateTimeOffset.Now.Date) && ((Model.Estado == 1) || (Model.Estado == 2) || (Model.Estado == 3)))
+{
+    <div class="form-group">
+        <div class="col-md-offset-9 col-md-12">
+            @*@Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-success" })*@
+            @*@Html.ActionLink("Cancelar solicitud", "Delete", new { id = Model.ID }, new { @class = "btn btn-danger" })*@
+        </div>
+    </div>
+
+}
+else if (Model.Estado == 6)
+{
+    <div class="form-group">
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Esta solicitud ya no puede ser editada debido a que esta cancelada.
+        </div>
+    </div>
+}
+else if (Model.Estado == 5)
+{
+    <div class="form-group">
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Esta solicitud ya no puede ser editada debido a que ya se cerro.
+        </div>
+    </div>
+}
+else if ((Model.FECHA_RETIRO.AddDays(Model.PERIODO_USO) >= System.DateTimeOffset.Now.Date) && (Model.Estado == 4))
+{
+    <div class="form-group">
+        <div class="col-md-offset-9 col-md-12">
+            @*@Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-success" })*@
+        </div>
+    </div>
+        <!--  <br />
+          <br /> -->
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Esta solicitud ya no puede ser cancelada debido a que su estado es abierto.
+        </div>
+}
+else
+{
+    <div class="form-group">
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            Esta solicitud ya no puede ser editada ni cancelada debido a que ya esta vencida.
+        </div>
+    </div>
+}
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="container">
+            <div class="row">
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.NUMERO_BOLETA):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.NUMERO_BOLETA)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_SOLICITUD):</label>
+                </div>
+                <div class="col-md-4">
+                    <!--Html.DisplayFor(model => model.FECHA_SOLICITUD)-->
+                    <text>@Model.FECHA_SOLICITUD.ToShortDateString()</text>
+                </div>
+
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">Solicitante:</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.ActivosUser.Nombre) @Html.DisplayFor(model => model.ActivosUser.Apellidos)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_RETIRO):</label>
+                </div>
+                <div class="col-md-4">
+                    <text>@Model.FECHA_RETIRO.ToShortDateString()</text>                    
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.MOTIVO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.MOTIVO)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.PERIODO_USO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.PERIODO_USO)
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">Curso:</label>
+                </div>
+                <div class="col-md-4">
+                    @if (Model.V_COURSESCOURSES != 0)
+                    {
+                        <text>@Model.V_COURSES.COURSE_NAME</text>
+                    }
+                    else
+                    {
+                        <text>No hay curso asociado</text>
+                    }
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.Estado):</label>
+                </div>
+                <div class="col-md-4">
+                    @ViewBag.Estadillo
+                </div>
+                <br />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table" style="margin-top:20px">
+    <thead>
+        <tr>
+            <th>
+                Equipo
+            </th>
+
+            <th>
+                Cantidad Solicitada
+            </th>
+            @if (Model.Estado > 1)
+            {
+                <th>
+                    Cantidad Aprobada
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (ViewBag.Equipo_Solict != null)
+            {
+
+                foreach (List<String> s in ViewBag.Equipo_Solict)
+                {
+                <tr>
+                    <td>@s[0] &nbsp;</td>
+                    <td>@s[1] &nbsp;</td>
+                    @if (Model.Estado > 1)
+                    {
+                        <td>
+                            @s[2] &nbsp;
+                        </td>
+                    }
+                </tr>
+
+            }
+        }
+
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SOFTWARE_REQUERIDO):</label>
+            <div class="col-lg-10">
+                @Html.DisplayFor(model => model.SOFTWARE_REQUERIDO)
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.OBSERVACIONES_SOLICITANTE):</label>
+            <div class="col-lg-10">
+                @Html.DisplayFor(model => model.OBSERVACIONES_SOLICITANTE)
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.OBSERVACIONES_APROBADO):</label>
+            <div class="col-lg-10">
+                @Html.DisplayFor(model => model.OBSERVACIONES_APROBADO)
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if ((Model.FECHA_RETIRO >= System.DateTimeOffset.Now.Date) && ((Model.Estado == 1) || (Model.Estado == 2) || (Model.Estado == 3)))
+{
+    <div class="form-group">
+        <div class="col-md-offset-9 col-md-12">
+            @Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-success" })
+            @Html.ActionLink("Cancelar solicitud", "Delete", new { id = Model.ID }, new { @class = "btn btn-danger" })
+        </div>
+    </div>
+
+}
+else if (Model.Estado == 6)
+{
+    <!--   <div class="form-group">
+                     <div class="alert alert-dismissible alert-danger">
+                   <button type="button" class="close" data-dismiss="alert">&times;</button>
+                   Esta solicitud ya no puede ser editada debido a que esta cancelada.
+               </div>
+       </div>-->
+}
+else if (Model.Estado == 5)
+{
+    <!--   <div class="form-group">
+           <div class="alert alert-dismissible alert-danger">
+               <button type="button" class="close" data-dismiss="alert">&times;</button>
+               Esta solicitud ya no puede ser editada debido a que ya se cerro.
+           </div>
+       </div> -->
+}
+else if ((Model.FECHA_RETIRO.AddDays(Model.PERIODO_USO) >= System.DateTimeOffset.Now.Date) && (Model.Estado == 4))
+{
+    <div class="form-group">
+        <div class="col-md-offset-9 col-md-12">
+            @Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-success" })
+        </div>
+    </div>
+        <!--    <br />
+            <br />
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Esta solicitud ya no puede ser cancelada debido a que su estado es abierto.
+            </div> -->
+}
+else
+{
+    <!--    <div class="form-group">
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                Esta solicitud ya no puede ser editada ni cancelada debido a que ya esta vencida.
+            </div>
+        </div> -->
+}
+
+
+

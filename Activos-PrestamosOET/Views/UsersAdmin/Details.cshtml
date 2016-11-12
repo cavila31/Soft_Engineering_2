@@ -1,0 +1,187 @@
+﻿@model Activos_PrestamosOET.Models.ApplicationUser
+@{
+    ViewBag.Title = "Detalles de usuario";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <br />
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Regresar", "Index")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>@ViewBag.Title</h2>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Datos personales</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                @Html.LabelFor(model => model.FullName)
+            </div>
+            <div class="col-xs-8">
+                <p>@Html.DisplayFor(model => model.FullName)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                @Html.LabelFor(model => model.Email)
+            </div>
+            <div class="col-xs-8">
+                <p>@Html.DisplayFor(model => model.Email)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                @Html.LabelFor(model => model.Cedula)
+            </div>
+            <div class="col-xs-8">
+                <p>@Html.DisplayFor(model => model.Cedula)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <label class="control-label" for="estacion">Estación</label>
+            </div>
+            <div class="col-xs-8">
+                <p id="estacion">@ViewBag.Estacion</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Roles asignados</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                @if (ViewBag.RoleNames.Count == 0)
+                {
+                    <p>No se le han asignado roles al usuario</p>
+                }
+                else
+                {
+                    <ul>
+                        @foreach (var item in ViewBag.RoleNames)
+                {
+                            <li>
+                                <p>@item</p>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Fecha
+                        </th>
+                        <th>
+                            Categoría de activo
+                        </th>
+                        <th>
+                            Número de placa
+                        </th>
+                        <th>
+                            Descripción del activo
+                        </th>
+                        <th>
+                            Nuevo estado
+                        </th>
+                        <th>
+                            Descripción de la transacción
+                        </th>
+                        <th class="text-center">
+                            Ver
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.Transacciones)
+                    {
+                        <!--activo_desechado = desechado;-->
+                        if (item.activo_desechado)
+                        {
+                            <tr class="danger">
+                                <td>
+                                    @item.transaccion_fecha
+                                </td>
+                                <td>
+                                    @item.activo_categoria
+                                </td>
+                                <td>
+                                    @item.numero_de_placa
+                                </td>
+                                <td>
+                                    @item.activo_descripcion
+                                </td>
+                                <td>
+                                    @item.activo_nuevo_estado
+                                </td>
+                                <td>
+                                    @item.transaccion_descripcion
+                                </td>
+                                <td class="text-center">
+                                    <a href="@Url.Action("Details", "Activos", new { id = item.activo_id })">
+                                        <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Ver activo"></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr>
+                                <td>
+                                    @item.transaccion_fecha
+                                </td>
+                                <td>
+                                    @item.activo_categoria
+                                </td>
+                                <td>
+                                    @item.numero_de_placa
+                                </td>
+                                <td>
+                                    @item.activo_descripcion
+                                </td>
+                                <td>
+                                    @item.activo_nuevo_estado
+                                </td>
+                                <td>
+                                    @item.transaccion_descripcion
+                                </td>
+                                <td class="text-center">
+                                    <a href="@Url.Action("Details", "Activos", new { id = item.activo_id })">
+                                        <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Ver activo"></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}

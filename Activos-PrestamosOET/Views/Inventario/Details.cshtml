@@ -1,0 +1,107 @@
+﻿@model Activos_PrestamosOET.Models.ACTIVO
+
+@{
+    ViewBag.Title = "Details";
+}
+<div>
+    <p>
+        @Html.ActionLink("Regresar a Inventario", "Index", null, new { @class = "btn btn-default" })
+
+    </p>
+</div>
+<legend><h2>Historial del Activo</h2></legend>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FABRICANTE):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.FABRICANTE)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.MODELO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.MODELO)
+                </div>
+
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.NUMERO_SERIE):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.NUMERO_SERIE)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.PLACA):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.PLACA)
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<legend><h2>Detalle</h2></legend>
+
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th># de Boleta</th>
+            <th>Fecha de Retiro</th>
+            <th>Fecha de Devolución</th>
+            <th>Solicitante</th>
+            <th>Observaciones al devolver</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    @foreach (var item in Model.PRESTAMOes)
+    {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                </td>
+                <td>
+                    <text>@item.FECHA_RETIRO.ToShortDateString()</text>
+                </td>
+                <td>
+                    @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ActivosUser.Nombre)
+                </td>
+                <td>
+            @foreach (var x in Model.TRANSACCIONES)
+            {
+                if (x.ACTIVOID == Model.ID && x.NUMERO_BOLETA == item.NUMERO_BOLETA && x.ESTADO== "Devuelto de préstamo")
+                {
+                    @Html.DisplayFor(modelItem => x.OBSERVACIONES_RECIBO)
+                }
+
+            }
+
+                </td>
+            </tr>
+    }
+    </tbody>
+</table>
+
+<div class="btn-group">
+    <a href="#" class="btn btn-default">Descargar Historial</a>
+    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li>@Html.ActionLink("PDF", "DescargarHistorial", new { id = Model.PLACA })</li>
+        <li>@Html.ActionLink("Excel", "ExportarExcel", new { id = Model.PLACA })</li>
+    </ul>
+</div>
+
+

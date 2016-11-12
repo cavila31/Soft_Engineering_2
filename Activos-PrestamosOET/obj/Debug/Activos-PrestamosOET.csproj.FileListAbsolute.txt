@@ -1,0 +1,1375 @@
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\b32896\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\b32896\Documents\GitHub\Ultimo sync\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\Carolina\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\andre_000\Documents\GitHub\New folder\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\b30721\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+=======
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\b04740\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\sdelv\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\Daniel\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\andre_000\Documents\GitHub\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\AndresB\Source\Repos\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\carlo\Desktop\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\ApplicationInsights.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.exe.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csc.rsp
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.exe
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\csi.rsp
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.AppContext.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.exe.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\vbc.rsp
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Activos-PrestamosOET.pdb
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\AjaxControlToolkit.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Newtonsoft.Json.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Owin.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\RazorPDF.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGrid.SmtpApi.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\SendGridMail.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\WebGrease.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Antlr3.Runtime.pdb
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\itextsharp.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.Web.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\PagedList.Mvc.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Extensions.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Formatting.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Net.Http.Primitives.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Helpers.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Mvc.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Optimization.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.Razor.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\System.Web.WebPages.Razor.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\EntityFramework.SqlServer.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csproj.App.config
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.csprojResolveAssemblyReference.cache
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.dll
+C:\Users\Fabo\Documents\UCR\I Semestre 2016\Inge II\ProyectoActivosPrestamos\Activos-PrestamosOET\obj\Debug\Activos-PrestamosOET.pdb

@@ -1,0 +1,54 @@
+﻿@model Activos_PrestamosOET.Models.ESTADOS_ACTIVOS
+
+@{
+    ViewBag.Title = "Delete";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Eliminar</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>¿Está seguro de que desea eliminar el estado de activo?</h3>
+    </div>
+</div>
+<div>
+    <dl class="dl-horizontal"></dl>
+    <dl class="dl-horizontal"></dl>
+</div>
+
+<div class="col-xs-12 col-sm-6">
+    <div class="row">
+        <div class="col-xs-5">
+            @Html.LabelFor(model => model.NOMBRE, htmlAttributes: new { @class = "control-label" })
+        </div>
+        <div class="col-xs-7">
+            @Html.DisplayFor(model => model.NOMBRE)
+        </div>
+    </div>
+
+    <div>
+        <dl class="dl-horizontal"></dl>
+        <dl class="dl-horizontal"></dl>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div ()="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}
+

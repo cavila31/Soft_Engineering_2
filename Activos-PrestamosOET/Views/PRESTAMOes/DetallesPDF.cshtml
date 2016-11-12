@@ -1,0 +1,106 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+
+@{
+    ViewBag.Title = "DetallesPDF";
+}
+
+<!--<h2>DetallesPDF</h2>-->
+
+<div>
+
+    <h3>Detalles de la solicitud</h3>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div>
+
+
+                <table style="width:100%">
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b> @Html.DisplayNameFor(model => model.NUMERO_BOLETA): </b></label> @Html.DisplayFor(model => model.NUMERO_BOLETA)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.FECHA_SOLICITUD): </b></label>@Html.DisplayFor(model => model.FECHA_SOLICITUD)</td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>Solicitante: </b></label> @Html.DisplayFor(modelItem => Model.ActivosUser.Nombre)</td>
+
+
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.FECHA_RETIRO): </b></label> @Html.DisplayFor(model => model.FECHA_RETIRO)</td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.MOTIVO): </b></label> @Html.DisplayFor(model => model.MOTIVO)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.PERIODO_USO): </b></label>@Html.DisplayFor(model => model.PERIODO_USO)</td>
+                    </tr>
+
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.SIGLA_CURSO): </b></label>@Html.DisplayFor(model => model.SIGLA_CURSO)</td>
+                        <td>
+                            <label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.Estado): </b></label> @switch (Model.Estado)
+                            {
+                                case 1:
+                                    <text>Pendiente</text>
+                                    break;
+                                case 2:
+                                    <text>Aprobada</text>
+                                    break;
+                                case 3:
+                                    <text>Denegada</text>
+                                    break;
+                                case 4:
+                                    <text>Abierta</text>
+                                    break;
+                                case 5:
+                                    <text>Cerrada</text>
+                                    break;
+                                case 6:
+                                    <text>Cancelada</text>
+                                    break;
+                            }
+                        </td>
+                        
+                    </tr>
+
+                </table>
+                <br />
+                <p>Equipo asignado a ésta solicitud </p>
+                <br />
+                <table border="1" style="width:90%">
+                    <thead>
+                        <tr>
+                            <th><b>Categoría</b></th>
+                            <th><b>Cantidad Solicitada</b></th>
+                            <th><b>Cantidad aprovada</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var x in Model.EQUIPO_SOLICITADO)
+                        {
+                            <tr>
+                                <td>@x.TIPO_ACTIVO</td>
+                                <td>@x.CANTIDAD</td>
+                                <td>@x.CANTIDADAPROBADA</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+                <div>
+                    <label class="col-lg-2 control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.SOFTWARE_REQUERIDO): </b></label>  
+                    @Html.DisplayFor(model => model.SOFTWARE_REQUERIDO)
+                </div>
+                <br />
+                <div>
+                    <label class="col-lg-2 control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.OBSERVACIONES_SOLICITANTE): </b></label>
+                    @Html.DisplayFor(model => model.OBSERVACIONES_SOLICITANTE)
+                </div>
+                <br />
+                <div>
+                    <label class="col-lg-2 control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.OBSERVACIONES_APROBADO): </b></label>
+                    @Html.DisplayFor(model => model.OBSERVACIONES_APROBADO)
+                </div>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</div>

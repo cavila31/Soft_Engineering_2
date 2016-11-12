@@ -1,0 +1,65 @@
+﻿@model Activos_PrestamosOET.Models.ESTADOS_ACTIVOS
+
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<div class="row">
+    <br />
+    <div class="col-xs-12">
+        <div>
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Editar estado de activos</h2>
+        <hr />
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="col-xs-12">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-xs-12 col-sm-4">
+                            @Html.LabelFor(model => model.NOMBRE, new { htmlAttributes = new { @class = "form-control", @rows = "4" } })
+                        </div>
+                        <div class="col-xs-12 col-sm-8">
+                            @Html.EditorFor(model => model.NOMBRE, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NOMBRE, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-0 col-md-12">
+            <div class="pull-left">
+                <input type="submit" value="Guardar cambios" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}

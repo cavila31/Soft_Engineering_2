@@ -1,0 +1,310 @@
+﻿@model PagedList.IPagedList<Activos_PrestamosOET.Models.ACTIVO>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Inventario</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("[id$=A6]").addClass("active");
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+        $.datepicker.regional['es'] = {
+            closeText: 'Cerrar',
+            prevText: '<Ant',
+            nextText: 'Sig>',
+            currentText: 'Hoy',
+            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié', 'Juv', 'Vie', 'Sáb'],
+            dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'],
+            weekHeader: 'Sm',
+            dateFormat: 'dd/mm/yy',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''
+        };
+
+        $.datepicker.setDefaults($.datepicker.regional['es']);
+        $(function () {
+            $("#datepicker1").datepicker();
+        });
+    </script>
+
+</head>
+<body>
+    <!--TÍTULO-->
+    <div class="row">
+        <div class="col-md-12">
+            <legend><h1>Inventario</h1></legend>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    @if (ViewBag.Mensaje2 != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            @ViewBag.Mensaje2
+        </div>
+    }
+    @if (ViewBag.Mensaje1 != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            @ViewBag.Mensaje1
+        </div>
+    }
+    @if (ViewBag.Mensaje0 != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            @ViewBag.Mensaje0
+        </div>
+    }
+    @using (Html.BeginForm())
+    {
+        Activos_PrestamosOET.Models.PrestamosEntities db = new Activos_PrestamosOET.Models.PrestamosEntities();
+        List<SelectListItem> listItems = new List<SelectListItem>();
+        listItems.Add(new SelectListItem
+        {
+            Text = "Todas",
+            Value = "1",
+            Selected = true
+        });
+        foreach (Activos_PrestamosOET.Models.TIPOS_ACTIVOS tipos in db.TIPOS_ACTIVOS)
+        {
+            listItems.Add(new SelectListItem
+            {
+                Text = tipos.NOMBRE,
+                Value = tipos.NOMBRE
+            });
+        }
+        ViewBag.listItems = listItems;
+
+        
+        <!--CATEGORÍA-->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>Inventario de Activos por categoría</h3>
+                <br>
+                <div class="row">
+                    <div class="form-horizontal">
+
+                        <div class="col-md-12">
+                            <label class="col-md-2">Categoria</label>
+                            <div class="col-md-4">
+                                @Html.DropDownList("dropdownCategoria", listItems, new { @class = "form-control" })
+                            </div>
+                            <div class="col-md-3">
+                                <input name="submit" id="submit" type="submit" value="Buscar" class="btn btn-default" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <!--TABLA-->
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-12">
+                <table class="table" style="margin-top:20px">
+                    <thead>
+                        <tr>
+                            <th>Fabricante</th>
+                            <th>Modelo</th>
+                            <th>Placa</th>
+                            <th>Tipo</th>
+                            <th>Descripciones</th>
+                            <th>Prestado A</th>
+                            <th>Prestado Hasta</th>
+                            <th>Curso</th>
+                            <th>Detalles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>
+                                @{if (item.FABRICANTE == null)
+                                    {
+                                        <text>No especificado</text>
+                                    }
+                                    else
+                                    {
+                                        <text>@item.FABRICANTE</text>
+                                    }}
+                            </td>
+                            <td>
+                                @{if (item.MODELO == null)
+                                    {
+                                        <text>No especificado</text>
+                                    }
+                                    else
+                                    {
+                                        <text>@item.MODELO</text>
+                                    }}
+                            </td>
+                            <td>
+                                @{if (item.PLACA == null)
+                                    {
+                                        <text>No especificada</text>
+                                    }
+                                    else
+                                    {
+                                        <text>@item.PLACA</text>
+                                    }}
+                            </td>
+                            <td>
+                                @{if (item.TIPOS_ACTIVOS == null)
+                                    {
+                                        <text>No especificado</text>
+                                    }
+                                    else
+                                    {
+                                        <text>@item.TIPOS_ACTIVOS.NOMBRE</text>
+                                    }}
+                            </td>
+                            <td>
+                                @{if (item.DESCRIPCION == null)
+                                    {
+                                        <text>No especificada</text>
+                                    }
+                                    else
+                                    {
+                                        <text>@item.DESCRIPCION</text>
+                                    }
+                                  }
+                            </td>
+                            @{ if (item.ESTADO_PRESTADO == 0)
+                                {
+                                    <td><text>No prestado</text></td>
+                                    <td>No prestado</td>
+                                    <td>No prestado a curso</td>
+                                }
+                                else
+                                {
+                                    
+                                        <td>@item.PRESTAMOes.Last().ActivosUser.Nombre</td>
+                                        <td>@item.PRESTAMOes.Last().FECHA_RETIRO.ToShortDateString()</td>
+                                    if (@item.PRESTAMOes.Last().V_COURSESCOURSES != 0)
+                                    {
+                                        <td>@item.PRESTAMOes.Last().V_COURSES.COURSE_NAME</td>
+                                    }
+                                    else
+                                    {
+                                        <td>No prestado a curso</td>
+                                    }
+
+                                }
+
+                                }
+                            <td>
+                                <a href="@Url.Action("Details", new { id = @item.PLACA })">
+                                    <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                </a>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+
+        <div class="btn-group">
+            <a href="#" class="btn btn-default">Reporte Activos</a>
+            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li>@Html.ActionLink("PDF", "PDFReporte")</li>
+                <li>@Html.ActionLink("Excel", "ExportToExcel")</li>
+            </ul>
+        </div>
+    }
+    <br>
+    <br>
+    
+    @using (Html.BeginForm())
+    {
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>Equipo Solicitado por fechas</h3>
+                <br>
+                <div class="row">
+                    <div class="form-horizontal">
+                        <div class="col-md-8">
+                            <label class="col-md-2">Fecha inicial:</label>
+                            <div class="col-md-6">
+                                <input name="datepicker" class="form-control" style="padding:10px" type="text" id="datepicker" />
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <label class="col-md-2">Fecha finalización:</label>
+                        <div class="col-md-6">
+                            <input name="datepicker1" class="form-control" style="padding:10px" type="text" id="datepicker1" />
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-md-3">
+                            <input type="submit" name="submit" id="process" value="Buscar por fechas" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <!--TABLA-->
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table" style="width:200px; margin-top:20px">
+                    <thead>
+                        <tr>
+                            <th class="col-md-3">Categoría</th>
+                            <th class="col-md-3">Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (ViewBag.Courses1 != null)
+                        {
+                            foreach (List<String> s in ViewBag.Courses1)
+                            {
+                                <tr>
+                                    @foreach (String hilera in s)
+                                    {
+                                        <td class="col-md-3">@hilera</td>
+                                    }
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</body>

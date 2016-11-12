@@ -1,0 +1,103 @@
+﻿@model Activos_PrestamosOET.Models.V_EMPLEADOS
+
+@{
+    ViewBag.Title = "Historial del empleado";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <br />
+        @Html.ActionLink("Regresar", "Index")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Historial del empleado&nbsp;<small>@Html.DisplayFor(model => model.NOMBRE)</small></h2>
+        <h5><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;<a href="mailto:@Html.DisplayFor(model => model.EMAIL)">@Html.DisplayFor(model => model.EMAIL)</a></h5>
+        <hr />
+    </div>
+</div>
+@*TODO: Modificar tablas para que aparezcan datos utiles (resolver referencia a activo).*@
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Fecha de asignación
+                        </th>
+                        <th>
+                            Modelo de activo
+                        </th>
+                        <th>
+                            Número de placa
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+                        <th class="text-center">
+                            Ver activo
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.activos_asignados)
+                    {
+                        if (item.activo_desechado)
+                        {
+                            <tr class="danger">
+                                <td>
+                                    @item.transaccion_fecha
+                                </td>
+                                <td>
+                                    @item.activo_modelo
+                                </td>
+                                <td>
+                                    @item.numero_de_placa
+                                </td>
+                                <td>
+                                    @item.activo_descripcion
+                                </td>
+                                <td class="text-center">
+                                    <a href="@Url.Action("Details", "Activos", new { id = item.activo_id })">
+                                        <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr>
+                                <td>
+                                    @item.transaccion_fecha
+                                </td>
+                                <td>
+                                    @item.activo_modelo
+                                </td>
+                                <td>
+                                    @item.numero_de_placa
+                                </td>
+                                <td>
+                                    @item.activo_descripcion
+                                </td>
+                                <td class="text-center">
+                                    <a href="@Url.Action("Details", "Activos", new { id = item.activo_id })">
+                                        <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#activos").addClass("active");
+    </script>
+}

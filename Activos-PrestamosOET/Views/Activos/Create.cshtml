@@ -1,0 +1,210 @@
+﻿@model Activos_PrestamosOET.Models.ACTIVO
+
+@{
+    ViewBag.Title = "Crear";
+}
+<div class="row">
+    <br />
+    <div class="col-xs-12">
+        @Html.ActionLink("Regresar", "Index")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Agregar activos</h2>
+        <hr />
+    </div>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-xs-12">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.DESCRIPCION, new { htmlAttributes = new { @class = "form-control", @rows = "4" } })
+                        @Html.ValidationMessageFor(model => model.DESCRIPCION, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.PLACA, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.PLACA, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.PLACA, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.NUMERO_SERIE, htmlAttributes: new { @class = "control-label" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.NUMERO_SERIE, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NUMERO_SERIE, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.MODELO, htmlAttributes: new { @class = "control-label" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.MODELO, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.MODELO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.FABRICANTE, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.FABRICANTE, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FABRICANTE, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.PRECIO, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="form-group">
+                            <div class="col-xs-3">
+                                @Html.DropDownList("V_MONEDAID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                            <div class="col-xs-5">
+                                @Html.EditorFor(model => model.PRECIO, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                            <div class="col-xs-4">
+                                @Html.DropDownListFor(model => model.EXENTO, new SelectList(new[] { new { Value = "true", Text = "Exento" }, new { Value = "false", Text = "Gravado" } }, "Value", "Text", Model), htmlAttributes: new { @class = "form-control" })
+                            </div>
+                        </div>
+                        @Html.ValidationMessageFor(model => model.PRECIO, "", new { @class = "text-danger" })
+                        @Html.ValidationMessageFor(model => model.V_MONEDAID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.NUMERO_DOCUMENTO, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.NUMERO_DOCUMENTO, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NUMERO_DOCUMENTO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.NUMERO_LOTE, htmlAttributes: new { @class = "control-label" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.NUMERO_LOTE, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NUMERO_LOTE, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.V_PROVEEDORIDPROVEEDOR, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.DropDownList("V_PROVEEDORIDPROVEEDOR", null, "-- Seleccione un proveedor --", htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.V_PROVEEDORIDPROVEEDOR, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.FECHA_COMPRA, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.EditorFor(model => model.FECHA_COMPRA, new { htmlAttributes = new { @class = "form-control datepicker" } })
+                        @Html.ValidationMessageFor(model => model.FECHA_COMPRA, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.TIPO_TRANSACCIONID, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.DropDownList("TIPO_TRANSACCIONID", null, "-- Seleccione un tipo de transacción --", htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.TIPO_TRANSACCIONID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.V_ANFITRIONAID, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.DropDownList("V_ANFITRIONAID", null, "-- Seleccione una compañía --", htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.V_ANFITRIONAID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.TIPO_ACTIVOID, htmlAttributes: new { @class = "control-label required" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.DropDownList("TIPO_ACTIVOID", null, "-- Seleccione un tipo de activo --", htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.TIPO_ACTIVOID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.INGRESADO_POR, htmlAttributes: new { @class = "control-label" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.Editor("INGRESADO_POR", new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.FECHA_INGRESO, htmlAttributes: new { @class = "control-label disable" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        @Html.Editor("FECHA_INGRESO", new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-4">
+                        @Html.LabelFor(model => model.PRESTABLE, htmlAttributes: new { @class = "control-label" })
+                    </div>
+                    <div class="col-xs-12 col-sm-8">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.PRESTABLE)
+                            @Html.ValidationMessageFor(model => model.PRESTABLE, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <span class="pull-left">
+                <p class="text-danger">(*) Campos obligatorios</p>
+            </span>
+            <span class="pull-right">
+                <input type="submit" value="Crear activo" class="btn btn-default" />
+            </span>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#activos").addClass("active");
+    </script>
+}

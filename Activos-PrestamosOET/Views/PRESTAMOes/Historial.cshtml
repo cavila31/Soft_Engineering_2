@@ -1,0 +1,262 @@
+﻿
+@model PagedList.IPagedList<Activos_PrestamosOET.Models.PRESTAMO>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Historial";
+}
+
+<div>
+    @Html.ActionLink("Nueva Solicitud", "Create", null, null, new { @class = "btn btn-default" })
+</div>
+
+<br />
+
+@if (ViewBag.mensajeConfirmacion != null)
+{
+    <div class="alert alert-dismissible alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        @ViewBag.mensajeConfirmacion
+    </div>
+
+}
+
+<legend><h2>Historial de Prestamos</h2></legend>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("[id$=A3]").addClass("active");
+    });
+</script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+
+});
+</script>
+
+@using (Html.BeginForm("Historial", "PRESTAMOes", FormMethod.Get))
+{
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <fieldset>
+                <label for="textArea" class="col-lg-2 control-label">Estado </label>
+                <div class="col-lg-4">
+                    @Html.DropDownList("estado", new SelectList(
+                  new List<Object>{
+                       new { text = "Todos", value = "0"},
+                       new { Text = "Pendiente", Value = "1" },
+                       new { Text = "Aprobada", Value = "2" },
+                       new { Text = "Denegada", Value = "3" },
+                       new { Text = "Abierta", Value = "4" },
+                       new { Text = "Cerrada", Value = "5" },
+                       new { Text = "Cancelada", Value = "6"}
+                  },
+                  "value",
+                  "text",
+                   0), new { @class = "form-control" })
+                </div>
+            </fieldset>
+
+
+            <div class="col-md-3">
+                <input type="submit" value="Buscar" class="btn btn-default" />
+            </div>
+
+        </div>
+    </div>
+
+}
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            <label class="control-label" for="inputDefault">Número de boleta</label>
+        </th>
+        <th>
+            <label class="control-label" for="inputDefault">Solicitud</label>
+        </th>
+        <th>
+            <label class="control-label" for="inputDefault">Inicia</label>
+        </th>
+        <th>
+            <label class="control-label" for="inputDefault">Finaliza</label>
+        </th>
+        <th>
+            <label class="control-label" for="inputDefault">Estado</label>
+        </th>
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @switch (item.Estado)
+            {
+                case 1:
+                <tr class="danger">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                    </td>
+                    <td>
+                        @item.FECHA_SOLICITUD.ToShortDateString()
+                        
+                    </td>
+                    <td>
+                        @item.FECHA_RETIRO.ToShortDateString()
+                    </td>
+                    <td>
+                        @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                    </td>
+                    <td>
+                        <text>Pendiente</text>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                    <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                </a>
+                    </td>
+                </tr>
+                    break;
+                case 2:
+                    <tr class="success">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                        </td>
+                        <td>
+                            @item.FECHA_SOLICITUD.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                        </td>
+                        <td>
+                            <text>Aceptada</text>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    break;
+                case 3:
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                        </td>
+                        <td>
+                            @item.FECHA_SOLICITUD.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                        </td>
+                        <td>
+                            <text>Denegada</text>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    break;
+                case 4:
+                    <tr class="warning">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                        </td>
+                        <td>
+                            @item.FECHA_SOLICITUD.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                        </td>
+                        <td>
+                            <text>Abierta</text>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    break;
+                case 5:
+                    <tr class="info">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                        </td>
+                        <td>
+                            @item.FECHA_SOLICITUD.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                        </td>
+                        <td>
+                            <text>Cerrada</text>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    break;
+                case 6:
+                    <tr class="active">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                        </td>
+                        <td>
+                            @item.FECHA_SOLICITUD.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                        </td>
+                        <td>
+                            <text>Cancelada</text>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Detalles", new { id = item.ID })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    break;
+            }
+            </tr>
+    }
+
+</table>
+
+<div class="col-md-offset-9 col-md-12">
+
+    <button type="button" data-trigger="focus" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-html="true" data-content="Rojo: Pendiente <br>Verde: Aceptado <br>Blanco: Denegado <br>Amarillo: Abierta <br>Azul: Cerrada <br>Gris: Cancelada" data-original-title="" title="¿Qué significan los colores?">¿Qué significan los colores?</button>
+
+    <br />
+</div>
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Historial",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, estado = ViewBag.estado }))

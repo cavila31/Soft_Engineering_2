@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <div class="jumbotron">
+            <h1>Sistema de control de activos</h1>
+            <p class="lead">Bienvenido al sistema de manejo de activos de la Organización para Estudios Tropicales. En este sistema tendrá la posibilidad de agregar, modificar y desechar los activos con los que cuenta la OET dependiendo de sus permisos en el sistema. Adicionalmente, tendrá la opción de solicitar préstamos de equipo que la OET tiene para su disposición.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Control de activos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>
+                    Este es un sistema de manejo de activos para la Organización de Activos Tropicales. El sistema provee las funciones relacionadas con el ciclo de vida de los activos así como consultas sobre sus movimientos, historial de control y asignación de activos a usaurios específicos.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    @Html.ActionLink("Sección de activos", "Index", "Activos", null, new { @class = "btn btn-default" } )
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Préstamos de equipo</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>
+                    En esta sección podrá administrar los préstamos de activos de la OET y también tendrá la opción de solicitar activos en préstamo para su uso. Podrá hacer un seguimiento de su boleta de prestamos y de los activos que tiene asignados a su nombre.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="pull-left">
+                    @Html.ActionLink("Sección de préstamos", "Index", "PRESTAMOes", null, new { @class="btn btn-default"})
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#A1").addClass("active");
+    </script>
+}

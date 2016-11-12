@@ -1,0 +1,38 @@
+﻿@model Activos_PrestamosOET.Models.CENTROS_DE_COSTOS
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <br />
+        <p>
+            @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+            @Html.ActionLink("Volver a la lista", "Index")
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Detalles</h2>
+    </div>
+</div>
+
+<div class="col-xs-12 col-sm-6">
+    <div class="row">
+        <div class="col-xs-5">
+            @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "control-label" })
+        </div>
+        <div class="col-xs-7">
+            @Html.DisplayFor(model => model.Nombre)
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}

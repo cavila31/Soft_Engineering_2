@@ -1,0 +1,154 @@
+﻿@model PagedList.IPagedList<Activos_PrestamosOET.Models.ACTIVO>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Inventario y códigos de barras";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Control de inventario y códigos de barras</h2>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        @using (Html.BeginForm("Inventario", "Activos", FormMethod.Get))
+        {
+            <div class="input-group">
+                @Html.Editor("busqueda", ViewBag.FiltroActual as string, new { htmlAttributes = new { @class = "form-control", @placeholder = "Ingrese su búsqueda de activos" } })
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default" title="Buscar"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div>
+        }
+        <div class="pull-left">
+            <p>
+                <small>
+                    @Html.ActionLink("Limpiar búsqueda", "Index", "UsersAdmin", new { @title = "Eliminar los filtros de la búsqueda" })
+                </small>
+            </p>
+        </div>
+        <br />
+    </div>
+</div>
+@using (Html.BeginForm("GenerarPDFCodigoBarras", "Activos", FormMethod.Post))
+{
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>@Html.ActionLink("Compañía", "Inventario", new { orden = ViewBag.Compania }, new { @title = "Ordenar por la compañía" })</th>
+                            <th>@Html.ActionLink("Estación", "Inventario", new { orden = ViewBag.Estacion }, new { @title = "Ordenar por la estación" })</th>
+                            <th>@Html.ActionLink("Tipo", "Inventario", new { orden = ViewBag.Tipo }, new { @title = "Ordenar por el tipo" })</th>
+                            <th>@Html.ActionLink("Responsable", "Inventario", new { orden = ViewBag.Responsable }, new { @title = "Ordenar por el responsable" })</th>
+                            <th>
+                                @Html.ActionLink("Descripción", "Inventario", new { orden = ViewBag.Descripcion }, new { @title = "Ordenar por la descripción del activo" })
+                            </th>
+                            <th class="text-center">Acciones</th>
+                            <th class="text-center">Generar código</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            if (item.DESECHADO)
+                            {
+                                <tr class="danger">
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_ANFITRIONA.SIGLAS)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_ESTACION.SIGLAS)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TIPOS_ACTIVOS.NOMBRE)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_EMPLEADOS.NOMBRE)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DESCRIPCION)
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="@Url.Action("Details", new { id = item.ID })">
+                                            <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                        </a>
+                                    </td>
+                                    <td></td>
+                                </tr>
+
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_ANFITRIONA.SIGLAS)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_ESTACION.SIGLAS)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.TIPOS_ACTIVOS.NOMBRE)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.V_EMPLEADOS.NOMBRE)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.DESCRIPCION)
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="@Url.Action("Details", new { id = item.ID })">
+                                            <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                        </a>
+                                    </td>
+                                    <td class="text-center">
+                                        @Html.CheckBox("marcados", new { @value = item.PLACA, @class = "seleccionado"})
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            <div class="pull-left">
+                <small><span class="text-muted">Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount</span></small>
+                @Html.PagedListPager(Model, pagina => Url.Action("Inventario", new { pagina, orden = ViewBag.OrdenActual }))
+            </div>
+            <div class="pull-right">
+                <select class="selectpicker" data-style="btn-primary" name="codigo_seleccionado">
+                    <option value="0">Formato Code39</option>
+                    <option value="1">Formato QR</option>
+                </select>
+                <button type="submit" class="btn btn-default" id="btn_submit" title="Generar código de barras de activos seleccionados" disabled>Generar códigos</button>
+            </div>
+        </div>
+    </div>
+}
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#activos").addClass("active");
+        $(".seleccionado").change(function () {
+            var numberOfChecked = $('input:checkbox:checked').length;
+            if (numberOfChecked > 0) {
+                $('#btn_submit').attr('disabled', false);
+            } else {
+                $('#btn_submit').attr('disabled', true);
+            }
+        });
+    </script>
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7fd8eb393eb44ed3ae919eb3a83615fa" Name="Diagram1" DisplayType="true" ZoomLevel="64">
+        <EntityTypeShape EntityType="PrestamosModel.EQUIPO_SOLICITADO" Width="1.5" PointX="14.625" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PrestamosModel.PRESTAMO" Width="2.75" PointX="10.875" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PrestamosModel.FK_A_PRESTAMOS" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="PrestamosModel.ACTIVO" Width="2.875" PointX="7.125" PointY="0.5" />
+        <AssociationConnector Association="PrestamosModel.ACTIVOPRESTAMO" />
+        <EntityTypeShape EntityType="PrestamosModel.TIPOS_ACTIVOS" Width="1.5" PointX="9.625" PointY="10.5" />
+        <AssociationConnector Association="PrestamosModel.FK_TIPO_ACTIVOACTIVO" />
+        <AssociationConnector Association="PrestamosModel.TIPOS_ACTIVOSEQUIPO_SOLICITADO" />
+        <EntityTypeShape EntityType="PrestamosModel.V_ESTACION" Width="1.5" PointX="0.875" PointY="3.875" />
+        <AssociationConnector Association="PrestamosModel.CENTROS_DE_COSTOSACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.ESTADOS_ACTIVOS" Width="1.5" PointX="3" PointY="6.5" />
+        <AssociationConnector Association="PrestamosModel.FK_ESTADO_ACTIVOACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.V_ANFITRIONA" Width="1.5" PointX="0.625" PointY="0.75" />
+        <EntityTypeShape EntityType="PrestamosModel.V_MONEDA" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PrestamosModel.V_PROVEEDOR" Width="2.125" PointX="0.625" PointY="6.375" />
+        <EntityTypeShape EntityType="PrestamosModel.V_TIPO_CAMBIO" Width="2" PointX="16.25" PointY="6.25" />
+        <AssociationConnector Association="PrestamosModel.V_MONEDAACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.CENTROS_DE_COSTOS" Width="1.5" PointX="3.375" PointY="11.125" />
+        <AssociationConnector Association="PrestamosModel.FK_CENTRO_DE_COSTOACTIVO" />
+        <AssociationConnector Association="PrestamosModel.V_PROVEEDORACTIVO" />
+        <AssociationConnector Association="PrestamosModel.V_ANFITRIONAACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.TIPOS_TRANSACCIONES" Width="1.5" PointX="3.5" PointY="8.875" />
+        <AssociationConnector Association="PrestamosModel.FK_TIPO_TRANSACCIONACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.TRANSACCION" Width="2.375" PointX="7" PointY="11.5" />
+        <AssociationConnector Association="PrestamosModel.FK_ACTIVOTRANSACCION" />
+        <AssociationConnector Association="PrestamosModel.V_ESTACIONACTIVO" />
+        <EntityTypeShape EntityType="PrestamosModel.ActivosUser" Width="2.125" PointX="11.875" PointY="6.5" />
+        <AssociationConnector Association="PrestamosModel.ActivosUserPRESTAMO" />
+        <AssociationConnector Association="PrestamosModel.ActivosUserPRESTAMO1" />
+        <EntityTypeShape EntityType="PrestamosModel.V_COURSES" Width="1.5" PointX="17" PointY="0.875" />
+        <EntityTypeShape EntityType="PrestamosModel.V_EMPLEADOS" Width="1.5" PointX="4.875" PointY="3.125" />
+        <AssociationConnector Association="PrestamosModel.V_EMPLEADOSACTIVO" />
+        <AssociationConnector Association="PrestamosModel.V_EMPLEADOSTRANSACCION" />
+        <AssociationConnector Association="PrestamosModel.PRESTAMOV_COURSES" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

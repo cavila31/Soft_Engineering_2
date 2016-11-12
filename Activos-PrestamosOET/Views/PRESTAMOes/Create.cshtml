@@ -1,0 +1,268 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+
+@if (ViewBag.MensajeError != null)
+{
+    <div class="alert alert-dismissible alert-danger">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        @ViewBag.MensajeError
+    </div>
+}
+
+
+@{
+    ViewBag.Title = "Nueva solicitud de préstamo";
+}
+
+
+
+<legend><h2>Nueva solicitud de préstamo</h2></legend>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+    if (!Modernizr.inputtypes.date) {
+      $(function() {
+        $( "#datepicker" ).datepicker();
+      });
+    }
+</script>
+<script>
+         $.datepicker.regional['es'] = {
+         closeText: 'Cerrar',
+         prevText: '<Ant',
+         nextText: 'Sig>',
+         currentText: 'Hoy',
+         monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+         monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+         dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+         dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+         weekHeader: 'Sm',
+         dateFormat: 'dd/mm/yy',
+         firstDay: 1,
+         isRTL: false,
+         showMonthAfterYear: false,
+         yearSuffix: ''
+         };
+
+         $.datepicker.setDefaults($.datepicker.regional['es']);
+         $(function () {
+             if (!Modernizr.inputtypes.date) {
+                 $('.date-picker').datepicker();
+             }
+         });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("[id$=A2]").addClass("active");
+    });
+
+    jQuery.validator.addMethod("datemustbeequalorgreaterthancurrentdate", function (value, element, param) {
+        var someDate = $("#SomeDate").val();
+        var today;
+        var currentDate = new Date();
+        var year = currentDate.getYear();
+        var month = currentDate.getMonth() + 1;  // added +1 because javascript counts month from 0
+        var day = currentDate.getDate();
+        var hours = currentDate.getHours();
+        var minutes = currentDate.getMinutes();
+        var seconds = currentDate.getSeconds();
+
+        today = month + '/' + day + '/' + year + '  ' + hours + '.' + minutes + '.' + seconds;
+
+        if (someDate < today) {
+            return false;
+        }
+        return true;
+    });
+
+    jQuery.validator.unobtrusive.adapters.addBool("datemustbeequalorgreaterthancurrentdate");
+</script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.MOTIVO):*</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.MOTIVO, new { htmlAttributes = new { @class = "form-control", @style = "70px" } })
+                    @Html.ValidationMessageFor(model => model.MOTIVO, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-2">
+                    <label id="etiquetaFecha" class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_RETIRO):*</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.FECHA_RETIRO, new { htmlAttributes = new { @class = "form-control datepicker" } })
+                    @Html.TextBox("Fecha_Inicio_Curso", null, new { @class = "form-control", @readonly = "readonly", style = "display: none" })
+                    @Html.ValidationMessageFor(model => model.FECHA_RETIRO, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-4">
+                    @Html.TextBox("Fecha_Inicio_Curso", null, new { @class = "form-control", @readonly = "readonly", style = "display: none" })
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label id="etiquetaFecha" class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SIGLA_CURSO) </label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DropDownList("SIGLA_CURSO", null, "Sin Curso", htmlAttributes: new { @class = "form-control" })
+                    @Html.CheckBox("asignadoACurso", false, new { @style = "display: none" })
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.PERIODO_USO):*</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.PERIODO_USO, new { htmlAttributes = new { @min = 0, @class = "form-control", @placeholder = "Está en días." } })
+                    @Html.ValidationMessageFor(model => model.PERIODO_USO, "", new { @class = "text-danger" })
+                </div>
+                <br/>
+                <br/>
+                <div class="col-lg-offset-6 col-md-2">
+                    <label id="etiquetaFecha" class="control-label" for="inputDefault">Fin de préstamo:</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.TextBox("Fecha_Fin_Prestamo", null, new { @class = "form-control", @readonly = "readonly" })
+                </div>
+             </div>
+        </div>
+
+        <div class="form-group">
+            <table class="table">
+                <tr>
+                    <th>
+                        Equipo
+                    </th>
+
+                    <th class="col-md-4">
+                        Cantidad
+                    </th>
+                </tr>
+                @{
+                    ViewData["categorias"]  = (List<String>)TempData["categorias"];
+                    List<String> categorias = (List<String>)ViewData["categorias"];
+                }
+                @foreach (String cat in categorias)
+                {
+                    <tr>
+                        <td>
+                            @Html.Label("Categoria", @cat)
+                        </td>
+                        <td>
+                            @Html.TextBox("Cantidad", null, new { @class = "form-control", @type = "number", @min = "0", @Value = "0" })
+                            @*<input type="number" class="form-control" name="points" min="0" value="0">*@
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <br />
+                    @Html.LabelFor(model => model.SOFTWARE_REQUERIDO, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SOFTWARE_REQUERIDO, new { htmlAttributes = new { @class = "form-control", @style = "40px" } })
+                        @Html.ValidationMessageFor(model => model.SOFTWARE_REQUERIDO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.OBSERVACIONES_SOLICITANTE, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.OBSERVACIONES_SOLICITANTE, new { htmlAttributes = new { @class = "form-control", @style = "40px" } })
+                        @Html.ValidationMessageFor(model => model.OBSERVACIONES_SOLICITANTE, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-1 col-md-10">
+                        <input type="submit" value="Crear" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    }
+
+<div>
+    @Html.ActionLink("Historial de Solicitudes", "Historial", null, null, new { @class = "btn btn-default" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $(".datefield").datepicker();
+        });
+
+        $("#SIGLA_CURSO").change(function () {
+        var selectedValue = $("#SIGLA_CURSO").val();
+
+        //alert(selectedText);
+        if (selectedValue != "")
+        {
+            $("#etiquetaFecha").text("Inicio Curso:")
+            $("#FECHA_RETIRO").hide();
+            $("#Fecha_Inicio_Curso").show();
+            $("#PERIODO_USO").prop('readonly', true);
+            $("#asignadoACurso").attr('checked', true);
+            $("#asignadoACurso").val(true);
+            $.post('@Url.Action("obtenerFechasCurso", "PRESTAMOes")', { idCurso: selectedValue }, function (listaDatos) {
+                $("#Fecha_Inicio_Curso").val(listaDatos[0]);
+                $("#Fecha_Fin_Prestamo").val(listaDatos[1]);
+                $("#PERIODO_USO").val(listaDatos[2]);
+                //$("#FECHA_RETIRO").val(listaDatos[0]);
+            });
+        }
+        else
+        {
+            $("#asignadoACurso").attr('checked', false);
+            $("#etiquetaFecha").text("Inicio del préstamo:*");
+            $("#FECHA_RETIRO").show();
+            $("#Fecha_Inicio_Curso").hide();
+            $("#Fecha_Fin_Prestamo").val("");
+            $("#PERIODO_USO").val("");
+            $("#PERIODO_USO").prop('readonly', false);
+        }
+        });
+
+
+        $('#PERIODO_USO').on('input', function () {
+            if ($("#PERIODO_USO").val() != "")
+            {
+                var fecha = new Date($("#FECHA_RETIRO").val());
+                var dias = parseInt($("#PERIODO_USO").val(), 10);
+                var nuevaFecha = fecha.setDate(fecha.getDate() + dias);
+                var fin = fecha.getDate() + '/' + (fecha.getMonth() + 1) + '/' + fecha.getFullYear();
+                $("#Fecha_Fin_Prestamo").val(fin);
+            }
+            else
+            {
+                $("#Fecha_Fin_Prestamo").val("");
+            }
+
+        });
+
+
+
+    //   $(".datepicker").datepicker({
+    //       onSelect: function () {
+    //           alert("ayyy");
+    //       }
+    //   })
+    </script>
+
+}

@@ -1,0 +1,76 @@
+﻿@model Activos_PrestamosOET.Models.ACTIVO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h3>Historial del Activo</h3>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        <div class="container">
+            <div class="row">
+
+                <table style="width:100%">
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.FABRICANTE): </b></label>@Html.DisplayFor(model => model.FABRICANTE)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.MODELO): </b></label>@Html.DisplayFor(model => model.MODELO)</td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.NUMERO_SERIE): </b></label>@Html.DisplayFor(model => model.NUMERO_SERIE)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.PLACA): </b></label>@Html.DisplayFor(model => model.PLACA)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br />
+
+<h3>Detalle de Préstamos</h3>
+
+<br />
+
+<table border="1" style="width:90%">
+    <thead>
+        <tr>
+            <th><b># de Boleta</b></th>
+            <th><b>Fecha de Retiro</b></th>
+            <th><b>Fecha de Devolucion</b></th>
+            <th><b>Solicitante</b></th>
+            <th><b>Observaciones al devolver</b></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.PRESTAMOes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NUMERO_BOLETA)
+                </td>
+                <td>
+					<text>@item.FECHA_RETIRO.ToShortDateString()</text>                    
+                </td>
+                <td>
+                    @item.FECHA_RETIRO.AddDays(item.PERIODO_USO).ToShortDateString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ActivosUser.Nombre)
+                </td>
+                <td>
+                    @foreach (var x in Model.TRANSACCIONES)
+                    {
+                        if (x.ACTIVOID == Model.ID && x.NUMERO_BOLETA == item.NUMERO_BOLETA && x.ESTADO == "Devuelto de préstamo")
+                        {
+                            @Html.DisplayFor(modelItem => x.OBSERVACIONES_RECIBO)
+                        }
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

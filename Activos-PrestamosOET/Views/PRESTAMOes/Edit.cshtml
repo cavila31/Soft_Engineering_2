@@ -1,0 +1,290 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+
+@{
+    ViewBag.Title = "Edit";
+}
+<div>
+    @Html.ActionLink("Regresar al Historial", "Historial", null, null, new { @class = "btn btn-default" })
+</div>
+<h2>Editar Solicitud</h2>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+    if (!Modernizr.inputtypes.date) {
+      $(function() {
+        $( "#datepicker" ).datepicker();
+      });
+    }
+</script>
+<script>
+         $.datepicker.regional['es'] = {
+         closeText: 'Cerrar',
+         prevText: '<Ant',
+         nextText: 'Sig>',
+         currentText: 'Hoy',
+         monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+         monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+         dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+         dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+         weekHeader: 'Sm',
+         dateFormat: 'dd/mm/yy',
+         firstDay: 1,
+         isRTL: false,
+         showMonthAfterYear: false,
+         yearSuffix: ''
+         };
+
+         $.datepicker.setDefaults($.datepicker.regional['es']);
+         $(function () {
+             if (!Modernizr.inputtypes.date) {
+                 $('.date-picker').datepicker();
+             }
+         });
+</script>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.NUMERO_BOLETA):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.NUMERO_BOLETA)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_SOLICITUD):</label>
+                </div>
+                <div class="col-md-4">
+                    <!--Html.DisplayFor(model => model.FECHA_SOLICITUD)-->
+                    @Html.DisplayFor(model => model.FECHA_SOLICITUD)
+                </div>
+
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">Solicitante:</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.ActivosUser.Nombre) @Html.DisplayFor(model => model.ActivosUser.Apellidos)
+                    <!--ViewBag.Nombre-->
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_RETIRO):</label>
+                </div>
+                <div class="col-md-4">
+                    @if (Model.V_COURSESCOURSES == 0)
+                    {
+                        @Html.EditorFor(model => model.FECHA_RETIRO, new { htmlAttributes = new { @class = "form-control date-picker" } })
+                        @Html.ValidationMessageFor(model => model.FECHA_RETIRO, "", new { @class = "text-danger" })
+                    }
+                    else
+                    {
+                        @Html.EditorFor(model => model.FECHA_RETIRO, new { htmlAttributes = new { @class = "form-control date-picker", @readonly = "readonly" } })
+                        @*@Html.TextBox("FechaInicial", Model.FECHA_RETIRO, new { @class = "form-control", @readonly = "readonly"})*@
+                        @Html.ValidationMessageFor(model => model.FECHA_RETIRO, "", new { @class = "text-danger" })
+                    }
+                    @Html.TextBox("Fecha_Inicio_Curso", null, new { @class = "form-control", @readonly = "readonly", style = "display: none" })
+
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.MOTIVO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.EditorFor(model => model.MOTIVO, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MOTIVO, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.PERIODO_USO):</label>
+                </div>
+                <div class="col-md-4">
+                    @if (Model.V_COURSESCOURSES == 0)
+                {
+                        @Html.EditorFor(model => model.PERIODO_USO, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.PERIODO_USO, "", new { @class = "text-danger" })
+                    }
+                    else
+                    {
+                        @Html.EditorFor(model => model.PERIODO_USO, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.PERIODO_USO, "", new { @class = "text-danger" })
+                    }
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SIGLA_CURSO):</label>
+                </div>
+                <div class="col-md-4">
+                    @*@Html.DropDownList("SIGLA_CURSO", null, "Seleccionar", htmlAttributes: new { @class = "form-control" } )*@
+                    @*Html.DropDownListFor(model=>model.SIGLA_CURSO, null, "Seleccionar", htmlAttributes: new { @class = "form-control" })*@
+                    @Html.Raw(ViewBag.SelectCurso)
+                    @Html.ValidationMessageFor(model => model.SIGLA_CURSO, "", new { @class = "text-danger" })
+                    @*@Html.CheckBox("asignadoACurso", false, new { @style = "display: inline" })*@
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.Estado):</label>
+                </div>
+                <div class="col-md-4">
+                    @ViewBag.Estadillo
+                </div>
+                <br />
+                <br />
+            </div>
+        </div>
+        <br />
+        <br />
+        <table class="table" style="margin-top:20px">
+            <thead>
+                <tr>
+                    <th>
+                        Equipo
+                    </th>
+
+                    <th>
+                        Cantidad Solicitada
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.Equipo_Solict != null)
+                {
+
+                    foreach (List<String> s in ViewBag.Equipo_Solict)
+                    {
+                        <tr>
+                            <td>
+                                @s[0] &nbsp;
+                        </td>
+                        <td>
+                            @Html.TextBox("cantidad", @s[1], null, new { @class = "form-control col-md-2", @type = "number", @min = "0" })
+                        </td>
+                        <td></td>
+                    </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SOFTWARE_REQUERIDO):</label>
+            <div class="col-lg-10">
+                @Html.EditorFor(model => model.SOFTWARE_REQUERIDO, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SOFTWARE_REQUERIDO, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.OBSERVACIONES_SOLICITANTE):</label>
+            <div class="col-lg-10">
+                @Html.EditorFor(model => model.OBSERVACIONES_SOLICITANTE, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.OBSERVACIONES_SOLICITANTE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="form-group">
+            <div class="col-md-offset-9 col-md-12">
+                <input type="submit" value="Guardar Cambios" class="btn btn-success" />
+                @Html.ActionLink("Cancelar Edicion", "Detalles", new { id = Model.ID }, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @* @Html.ActionLink("Volver al Historial de Solicitudes", "Historial")  |*@
+    @Html.ActionLink("Cancelar solicitud", "Delete", new { id = Model.ID }, new { @class = "btn btn-default" })
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $(".datefield").datepicker();
+        });
+
+        $("#SIGLA_CURSO").change(function () {
+        var selectedValue = $("#SIGLA_CURSO").val();
+
+        //alert(selectedText);
+        if (selectedValue != "")
+        {
+            $("#etiquetaFecha").text("Inicio Curso:")
+            $("#FECHA_RETIRO").hide();
+            $("#Fecha_Inicio_Curso").show();
+            $("#PERIODO_USO").prop('readonly', true);
+            $("#asignadoACurso").attr('checked', true);
+            $("#asignadoACurso").val(true);
+            $.post('@Url.Action("obtenerFechasCurso", "PRESTAMOes")', { idCurso: selectedValue }, function (listaDatos) {
+                $("#Fecha_Inicio_Curso").val(listaDatos[0]);
+                $("#Fecha_Fin_Prestamo").val(listaDatos[1]);
+                $("#PERIODO_USO").val(listaDatos[2]);
+                //$("#FECHA_RETIRO").val(listaDatos[0]);
+            });
+        }
+        else
+        {
+            $("#asignadoACurso").attr('checked', false);
+            $("#etiquetaFecha").text("Inicio del préstamo:*");
+            $("#FECHA_RETIRO").show();
+            $("#FECHA_RETIRO").attr("readonly", false);
+            $("#Fecha_Inicio_Curso").hide();
+            //$("#FechaInicial").hide();
+            $("#Fecha_Fin_Prestamo").val("");
+            //$("#PERIODO_USO").val("");
+            $("#PERIODO_USO").prop('readonly', false);
+        }
+        });
+
+
+        $('#PERIODO_USO').on('input', function () {
+            if ($("#PERIODO_USO").val() != "")
+            {
+                var fecha = new Date($("#FECHA_RETIRO").val());
+                var dias = parseInt($("#PERIODO_USO").val(), 10);
+                var nuevaFecha = fecha.setDate(fecha.getDate() + dias);
+                var fin = fecha.getDate() + '/' + (fecha.getMonth() + 1) + '/' + fecha.getFullYear();
+                $("#Fecha_Fin_Prestamo").val(fin);
+            }
+            else
+            {
+                $("#Fecha_Fin_Prestamo").val("");
+            }
+
+        });
+
+
+
+    //   $(".datepicker").datepicker({
+    //       onSelect: function () {
+    //           alert("ayyy");
+    //       }
+    //   })
+    </script>
+}

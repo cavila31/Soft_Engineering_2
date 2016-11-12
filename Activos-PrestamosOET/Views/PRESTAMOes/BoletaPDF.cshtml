@@ -1,0 +1,128 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+
+@{
+    ViewBag.Title = "BoletaPDF";
+}
+
+
+<div>
+
+    <h3>Solicitud de equipo de cómputo</h3>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div>
+
+
+                <table style="width:100%">
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b> @Html.DisplayNameFor(model => model.NUMERO_BOLETA): </b></label> @Html.DisplayFor(model => model.NUMERO_BOLETA)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.FECHA_SOLICITUD): </b></label><text>@Model.FECHA_SOLICITUD.ToShortDateString()</text></td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>Solicitante: </b></label> @Html.DisplayFor(modelItem => Model.ActivosUser.Nombre)</td>
+
+
+                    <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.FECHA_RETIRO): </b></label><text>@Model.FECHA_RETIRO.ToShortDateString()</text> </td>
+                    </tr>
+                    <tr>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.MOTIVO): </b></label> @Html.DisplayFor(model => model.MOTIVO)</td>
+                        <td><label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.PERIODO_USO) (en días): </b></label>@Html.DisplayFor(model => model.PERIODO_USO)</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.Estado): </b></label> @switch (Model.Estado)
+                            {
+                                case 1:
+                                    <text>Pendiente</text>
+                                    break;
+                                case 2:
+                                    <text>Aprobada</text>
+                                    break;
+                                case 3:
+                                    <text>Denegada</text>
+                                    break;
+                                case 4:
+                                    <text>Abierta</text>
+                                    break;
+                                case 5:
+                                    <text>Cerrada</text>
+                                    break;
+                                case 6:
+                                    <text>Cancelada</text>
+                                    break;
+                            }
+                        </td>
+                        <td><label for="inputDefault"><b>@Html.DisplayNameFor(model => model.SOFTWARE_REQUERIDO): </b></label>  @Html.DisplayFor(model => model.SOFTWARE_REQUERIDO)</td>
+                    </tr>
+
+                </table>
+
+                @if (Model.V_COURSESCOURSES != 0)
+                {
+                    <div>
+                        <label class="control-label" for="inputDefault"><b>Curso: </b></label> @Model.V_COURSES.COURSE_NAME
+                    </div>
+                }
+
+
+                <div>
+                    <label class="col-lg-2 control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.OBSERVACIONES_SOLICITANTE): </b></label>
+                    @Html.DisplayFor(model => model.OBSERVACIONES_SOLICITANTE)
+                </div>
+                <div>
+                    <label class="col-lg-2 control-label" for="inputDefault"><b>@Html.DisplayNameFor(model => model.OBSERVACIONES_APROBADO): </b></label>
+                    @Html.DisplayFor(model => model.OBSERVACIONES_APROBADO)
+                </div>
+                <br />
+                <p>Equipo asignado a ésta solicitud </p>
+                <br />
+                <table border="1" style="width:90%">
+                    <thead>
+                        <tr>
+                            <th><b>Categoría</b></th>
+                            <th><b>Fabricante</b></th>
+                            <th><b>Modelo</b></th>
+                            <th><b>Placa</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var x in Model.ACTIVOes)
+                        {
+                            <tr>
+                                <td>@x.TIPOS_ACTIVOS.NOMBRE</td>
+                                <td>@x.FABRICANTE</td>
+                                <td>@x.MODELO</td>
+                                <td>@x.PLACA</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+                <br />
+                <br />
+                <p>Nombre/Firma de entregado: ________________________________________________________</p>
+                <br />
+                <br />
+                <p>Nombre/Firma de recibido: __________________________________________________________</p>
+                <br />
+
+                <span><b>Importante: </b></span>
+
+                <ul>
+                    <li>Para brindar un servicio correcto, Informática requiere que los equipos sean solicitados con 4 días de anterioridad a la fecha de entrega, y se debe contar con el visto bueno del Coordinador del área de la que forma parte el solicitante.</li>
+                    <li>El equipo se entregará y recibirá en la oficina de Informática en la fecha indicada.</li>
+                    <li>Informática   se   hace   responsable   de   entregar   el   equipo   funcionando,   sin   embargo   es responsabilidad  del  usuario,  antes  del  uso  del  mismo,  proceder  a  probar  y  verificar  que  el mismo cumple con todos los requisitos para su adecuado uso.</li>
+                    <li>El personal de Informática contará con 4 días hábiles para revisar el estado del equipo, luego de su entrega.</li>
+                    <li> El usuario del equipo se hace responsables del mismo.</li>
+                </ul>
+
+                
+                <br />
+                <br />
+            </div>
+        </div>
+
+

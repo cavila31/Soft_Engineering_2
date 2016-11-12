@@ -1,0 +1,101 @@
+﻿@model PagedList.IPagedList<Activos_PrestamosOET.Models.ApplicationUser>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Usuarios del sistema";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Usuarios del sistema</h2>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        @using (Html.BeginForm("Index", "UsersAdmin", FormMethod.Get))
+        {
+            <div class="input-group">
+                @Html.Editor("busqueda", ViewBag.FiltroActual as string, new { htmlAttributes = new { @class = "form-control", @placeholder = "Ingrese su búsqueda de usuarios" } })
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default" title="Buscar"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div>
+        }
+        <div class="pull-left">
+            <p>
+                <small>
+                    @Html.ActionLink("Limpiar búsqueda", "Index", "UsersAdmin", new { @title = "Eliminar los filtros de la búsqueda" })
+                </small>
+            </p>
+        </div>
+        <br />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.ActionLink("Nombre", "Index", new { orden = ViewBag.Nombre}, new { @title="Ordenar por el nombre"})
+                        </th>
+                        <th>
+                            @Html.ActionLink("Correo electrónico", "Index", new { orden = ViewBag.Correo }, new { @title = "Ordenar por el correo electrónico" })
+                        </th>
+                        <th colspan="3" class="text-center">
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FullName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Edit", new {id= item.Id})">
+                                    <span class="glyphicon glyphicon-edit text-warning" aria-hidden="true" title="Editar"></span>
+                                </a>
+                            </td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Details", new { id = item.Id })">
+                                    <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true" title="Detalles"></span>
+                                </a>
+                            </td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Delete", new { id = item.Id })">
+                                    <span class="glyphicon glyphicon-erase text-danger" aria-hidden="true" title="Eliminar"></span>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="pull-left">
+            <small><span class="text-muted">Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount</span></small>
+            @Html.PagedListPager(Model, pagina => Url.Action("Index", new { pagina, orden = ViewBag.OrdenActual }))
+        </div>
+        <div class="pull-right">
+            @Html.ActionLink("Crear nuevo usuario", "Create", new object { }, new { @class = "btn btn-default" })
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}

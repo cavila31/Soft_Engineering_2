@@ -1,0 +1,334 @@
+﻿@model Activos_PrestamosOET.Models.PRESTAMO
+@{
+    ViewBag.Title = "Detalles";
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-dismissible alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        @ViewBag.Mensaje
+    </div>
+}
+
+
+
+@if (ViewBag.Mensaje2 != null)
+{
+    <div class="alert alert-dismissible alert-danger">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        @ViewBag.Mensaje2
+    </div>
+}
+
+<div>
+    <p>@Html.ActionLink("Regresar a Solicitudes", "Index", null, new { @class = "btn btn-default" })</p>
+</div>
+
+<legend><h2>Detalles de la Solicitud</h2></legend>
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.NUMERO_BOLETA):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.NUMERO_BOLETA)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_SOLICITUD):</label>
+                </div>
+                <div class="col-md-4">
+                   <text>@Model.FECHA_SOLICITUD.ToShortDateString()</text>
+                </div>
+
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">Solicitante:</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.ActivosUser.Nombre) @Html.DisplayFor(model => model.ActivosUser.Apellidos)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.FECHA_RETIRO):</label>
+                </div>
+                <div class="col-md-4">
+                   <text>@Model.FECHA_RETIRO.ToShortDateString()</text>
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.MOTIVO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.MOTIVO)
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.PERIODO_USO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.PERIODO_USO)
+                </div>
+                <br />
+                <br />
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.Estado):</label>
+                </div>
+                <div class="col-md-4">
+                    @switch (Model.Estado)
+                    {
+                        case 1:
+                            <text>Pendiente</text>
+                            break;
+                        case 2:
+                            <text>Aprobada</text>
+                            break;
+                        case 3:
+                            <text>Denegada</text>
+                            break;
+                        case 4:
+                            <text>Abierta</text>
+                            break;
+                        case 5:
+                            <text>Cerrada</text>
+                            break;
+                        case 6:
+                            <text>Cancelada</text>
+                            break;
+                    }
+                </div>
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SOFTWARE_REQUERIDO):</label>
+                </div>
+                <div class="col-md-4">
+                    @Html.DisplayFor(model => model.SOFTWARE_REQUERIDO)
+                </div>
+                <br />
+                <br />
+
+
+                <div class="col-md-2">
+                    <label class="control-label" for="inputDefault">@Html.DisplayNameFor(model => model.SIGLA_CURSO):</label>
+                </div>
+                <div class="col-md-4">
+                    @if (Model.V_COURSESCOURSES != 0)
+                    {
+                        <text>@Model.V_COURSES.COURSE_NAME</text>
+                    }
+                    else
+                    {
+                        <text>No hay curso asociado</text>
+                    }
+                </div>
+
+                <br />
+                <br />
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputDefault">@Html.DisplayNameFor(model => model.OBSERVACIONES_SOLICITANTE):</label>
+                    <div class="col-lg-10">
+                        @Html.DisplayFor(model => model.OBSERVACIONES_SOLICITANTE)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm("Devolucion", "PRESTAMOes", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.ID);
+    <table class="table" name="tablaEquipo" style="margin-top:20px">
+        <thead>
+            <tr>
+                <th class="col-md-1">Equipo</th>
+                <th class="col-md-1">Cantidad Solicitada</th>
+                <th class="col-md-1">Cantidad Aprobada</th>
+                <th class="col-md-1">Devolver</th>
+                <!--<th class="col-md-1" id="columna">Devolver Todo<input type="checkbox" onclick="seleccionaTodos('column5', this)" name="column5_checkAll"></th>-->
+                <th class="col-md-1" id="columna">@Html.CheckBox("column5_checkAll", false, new { @onclick = "seleccionaTodos('column5', this)" }) Devolver Todo</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (ViewBag.Equipo_Solict != null)
+            {
+                int modal = 0;
+
+                foreach (List<String> s in ViewBag.Equipo_Solict)
+                {
+                    String cat = s[0];
+                    <tr>
+                        <td class="col-md-1">@s[0] &nbsp;</td>
+                        <td class="col-md-1">@s[1] &nbsp;</td>
+                        <td class="col-md-1">@s[2] &nbsp;</td>
+                        <td>
+                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal@(modal)">
+                                Seleccionar
+                            </button>
+                            <div class="modal" id="myModal@(modal)">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                                            <h4 class="modal-title" id="myModalLabel">Seleccion de Equipo</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            @if (ViewBag.NoActivos != null)
+                                            {
+                                                <div class="alert alert-dismissible alert-warning">
+                                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                                    @ViewBag.NoActivos
+                                                </div>
+                                            }
+                                            <table class="table table-striped table-hover ">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>Fabricante</th>
+                                                        <th>Modelo</th>
+                                                        <th>Placa</th>
+                                                        <th>Estado</th>
+                                                        <th>Observaciones</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @if (ViewBag.EquipoPorCat != null)
+                                                    {
+                                                        Dictionary<String, List<List<String>>> datosActivos = ViewBag.EquipoPorCat;
+                                                        Dictionary<String, List<String>> observaciones = ViewBag.Observaciones;
+                                                        int numActivo = 0;
+                                                        foreach (List<String> c in datosActivos[s[0]])
+                                                        {
+                                                            String observacion = observaciones[s[0]][numActivo];
+                                                            <tr>
+                                                                @if ((Model.Estado) == 5)
+                                                                {
+                                                                    <td>
+                                                                        @Html.CheckBox("activoSeleccionado", false, new { @disabled = "disabled" })
+                                                                    </td>
+                                                                }
+                                                                else
+                                                                {
+                                                                    if (c[4] == "0")
+                                                                    {
+                                                                        <td>
+                                                                            @Html.CheckBox("activoSeleccionado", true, new { @readonly = "readonly" })
+                                                                        </td>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <td>
+                                                                            @Html.CheckBox("activoSeleccionado", false)
+                                                                        </td>
+                                                                    }
+
+                                                                }
+
+                                                                @*<input type="checkbox" name="activoSeleccionado" value="Seleccionado"></td>*@
+                                                                <td>@c[0] &nbsp;</td>
+                                                                <td>@c[1] &nbsp;</td>
+                                                                <td>@c[2] &nbsp;</td>
+                                                                @if (c[4] == "0")
+                                                                {
+                                                                    <td>Devuelto</td>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <td>En préstamo</td>
+                                                                }
+                                                                @if (c[4] == "0")
+                                                                {
+                                                                    <td>@Html.TextArea("Notas", observacion, new { @class = "form-control", @readonly = "readonly" })</td>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <td>@Html.TextArea("Notas", "", new { @class = "form-control" })</td>
+                                                                }
+                                                            </tr>
+                                                            numActivo++;
+                                                        }
+
+                                                    }
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" name="devolver" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            <button type="button" name="a" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>@Html.CheckBox("column5_checkbox", false)</td>
+                        @{ modal++; }
+                    </tr>
+                                }
+                            }
+        </tbody>
+    </table>
+
+    <br />
+    <br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="textArea" class="col-lg-2 control-label">@Html.DisplayNameFor(model => model.OBSERVACIONES_RECIBIDO):</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="3" style="width:95%" id="textArea"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                            if (Model.Estado == 5)
+                            {
+                                <div id="Botones" class="col-md-offset-9 col-md-12">
+                                    <input type="submit" name="b" value="Actualizar devolución" class="btn btn-default" disabled="disabled" />
+                                </div>
+                            }
+                            else
+                            {
+                                <div id="Botones" class="col-md-offset-9 col-md-12">
+                                    <input type="submit" name="b" value="Actualizar devolución" class="btn btn-default" />
+                                </div>
+                                }
+                            }
+
+
+<script>
+    @for(int i=0; i< ViewBag.Equipo_Solict.Count; i++)
+    {
+    <text>
+    $('#myModal</text>@i<text>').on('shown.bs.modal', function () { $('#myInput').focus() });
+    </text>
+    }
+</script>
+
+
+<script>
+    function seleccionaTodos(columnNo, checkBox) {
+        if (checkBox.checked == true) {
+            var columnName = columnNo + '_checkbox';
+            var allCheckboxes = document.getElementsByName(columnName);
+
+            for (var i = 0; i < allCheckboxes.length; i++) {
+                allCheckboxes[i].checked = true;
+            }
+        } else if (checkBox.checked == false) {
+            var columnName = columnNo + '_checkbox';
+            var allCheckboxes = document.getElementsByName(columnName);
+
+            for (var i = 0; i < allCheckboxes.length; i++) {
+                allCheckboxes[i].checked = false;
+            }
+        }
+    }
+</script>

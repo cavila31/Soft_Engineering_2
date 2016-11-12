@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Control de Activos OET</title>
+    <link href="@Url.Content("~/Content/themes/base/jquery.ui.core.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/themes/base/jquery.ui.datepicker.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/themes/base/jquery.ui.theme.css")" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/toastr")
+
+    <!-- Datepicker cross-browser -->
+    <script src="@Url.Content("~/Scripts/jquery-ui-1.11.4.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/fechas.js")" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div class="barra-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="pull-left">
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="~/Content/logo_oet.png" alt="Logo OET" class="img-responsive logo-oet" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-top" style="margin-top:80px;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li id="A1">@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        if (User.IsInRole("superadmin") || User.IsInRole("Ingresar activos") || User.IsInRole("Desechar activos") || User.IsInRole("Editar activos"))
+                        {
+                        <li class="dropdown" id="activos">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="activos">Activos <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Administración de activos", "Index", "Activos")</li>
+                                <li>@Html.ActionLink("Inventario y códigos de barras", "Inventario", "Activos")</li>
+
+                                @if (User.IsInRole("superadmin"))
+                                {
+                                    <li>@Html.ActionLink("Consulta por empleados", "Index", "Empleados")</li>
+                                }
+                            </ul>
+                        </li>
+                        }
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prestamos <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                @if ((User.IsInRole("superadmin")) || (User.IsInRole("Aceptar préstamos")) || (User.IsInRole("Solicitar préstamos")))
+                                {
+                                    <li id="A2">@Html.ActionLink("Nueva Solicitud", "Create", "PRESTAMOes")</li>
+                                    <li id="A3">@Html.ActionLink("Historial de Solicitudes", "Historial", "PRESTAMOes")</li>
+                                }
+                                @if ((User.IsInRole("superadmin")) || (User.IsInRole("Aceptar préstamos")))
+                                {
+                                    <li id="A4">@Html.ActionLink("Revisión de Préstamos", "Index", "PRESTAMOes")</li>
+                                    <li id="A6">@Html.ActionLink("Inventario", "Index", "Inventario")</li>
+                                }
+                            </ul>
+                        </li>
+                        if (User.IsInRole("superadmin"))
+                        {
+                            <li class="dropdown" id="opciones_avanzadas">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opciones avanzadas <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Administración de usuarios", "Index", "UsersAdmin")</li>
+                                    <li>@Html.ActionLink("Administración de roles", "Index", "RolesAdmin")</li>
+                                    <li>@Html.ActionLink("Centros de costos", "Index", "CentrosDeCostos")</li>
+                                    <li>@Html.ActionLink("Estados de los activos", "Index", "EstadosActivos")</li>
+                                    <li>@Html.ActionLink("Tipos de activos", "Index", "TiposActivos")</li>
+                                    <li>@Html.ActionLink("Tipos de transacciones", "Index", "TiposTransacciones")</li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+        <div class="push"></div>
+    </div>
+    <div class="footer">
+        <div class="cuerpo-footer">
+            <div class="container">
+                <footer>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h6 class="text-center"><a href="mailto:contacts.admin@oet.ac.cr">Contáctenos</a> | OET &copy; Copyright @DateTime.Now.Year - Todos los derechos reservados. </h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h6 class="text-center"> Por favor reporte cualquier problema o solicite asistencia a <a href="mailto:contacts.admin@oet.ac.cr">contacts.admin@oet.ac.cr</a></h6>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

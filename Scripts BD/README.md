@@ -1,0 +1,807 @@
+# Instrucciones para los scripts de la base de datos del esquema de Activos
+
+El siguiente documento tiene como fin facilitar la correcta ejecución de los _scripts_ necesarios para la base de datos que utiliza el módulo de **activos y préstamos** de la Organización para Estudios Tropicales.
+
+Para que no se presente ningún inconveniente, lo ideal es seguir este instructivo a como se indica en las siguientes instrucciones y con el orden que aquí se establece:
+
+### 1. Correr el script con el nombre _PrestamosOET.edmx.sql_
+
+Este script contiene todo lo necesario para establecer las tablas que se van a utilizar posteriormente en el sistema de los activos de la OET. El contenido del script se muestra a continuación, por si el usuario desea copiar y pegar los scripts aunque se adjunta el archivo correspondiente
+
+```sql
+-- Creating table 'EQUIPO_SOLICITADO'
+CREATE TABLE "ACTIVOS"."EQUIPO_SOLICITADO" (
+   "ID_PRESTAMO" VARCHAR2(25 CHAR) NOT NULL,
+   "TIPO_ACTIVO" VARCHAR2(50 CHAR) NOT NULL,
+   "CANTIDAD" NUMBER(38) NOT NULL,
+   "CANTIDADAPROBADA" NUMBER(38) ,
+   "TIPOS_ACTIVOSID" NUMBER(10) NOT NULL
+);
+
+-- Creating table 'PRESTAMOS'
+CREATE TABLE "ACTIVOS"."PRESTAMOS" (
+   "ID" VARCHAR2(25 CHAR) NOT NULL,
+   "NUMERO_BOLETA" NUMBER(19) ,
+   "MOTIVO" VARCHAR2(250 CHAR) ,
+   "FECHA_SOLICITUD" DATE NOT NULL,
+   "FECHA_RETIRO" DATE NOT NULL,
+   "PERIODO_USO" NUMBER(10) NOT NULL,
+   "SOFTWARE_REQUERIDO" VARCHAR2(250 CHAR) ,
+   "OBSERVACIONES_SOLICITANTE" VARCHAR2(250 CHAR) ,
+   "OBSERVACIONES_APROBADO" VARCHAR2(250 CHAR) ,
+   "OBSERVACIONES_RECIBIDO" VARCHAR2(250 CHAR) ,
+   "SIGLA_CURSO" CHAR(8 CHAR) ,
+   "Estado" NUMBER(5) NOT NULL,
+   "CED_SOLICITA" VARCHAR2(26 CHAR) NOT NULL,
+   "CED_APRUEBA" VARCHAR2(26 CHAR)
+);
+
+-- Creating table 'ACTIVOS'
+CREATE TABLE "ACTIVOS"."ACTIVOS" (
+   "ID" NVARCHAR2(256) NOT NULL,
+   "NUMERO_SERIE" NVARCHAR2(64) ,
+   "FECHA_COMPRA" DATE NOT NULL,
+   "INICIO_SERVICIO" DATE ,
+   "FECHA_INGRESO" DATE NOT NULL,
+   "FABRICANTE" NVARCHAR2(64) NOT NULL,
+   "PRECIO" NUMBER(38) NOT NULL,
+   "DESCRIPCION" NVARCHAR2(256) NOT NULL,
+   "EXENTO" NUMBER(1) NOT NULL,
+   "PRESTABLE" NUMBER(1) NOT NULL,
+   "TIPO_CAPITAL" NUMBER(1) NOT NULL,
+   "INGRESADO_POR" NVARCHAR2(128) NOT NULL,
+   "NUMERO_DOCUMENTO" NVARCHAR2(32) NOT NULL,
+   "NUMERO_LOTE" NVARCHAR2(32) ,
+   "TIPO_TRANSACCIONID" NUMBER(10) NOT NULL,
+   "ESTADO_ACTIVOID" NUMBER(10) NOT NULL,
+   "TIPO_ACTIVOID" NUMBER(10) NOT NULL,
+   "COMENTARIO" NVARCHAR2(256) ,
+   "DESECHADO" NUMBER(1) NOT NULL,
+   "MODELO" NVARCHAR2(128) ,
+   "V_USUARIOSIDUSUARIO" VARCHAR2(26 CHAR) ,
+   "V_ESTACIONID" VARCHAR2(26 CHAR) ,
+   "V_ANFITRIONAID" VARCHAR2(2 CHAR) NOT NULL,
+   "V_PROVEEDORIDPROVEEDOR" VARCHAR2(50 CHAR) NOT NULL,
+   "V_MONEDAID" VARCHAR2(26 CHAR) NOT NULL,
+   "CENTRO_DE_COSTOId" NUMBER(10) ,
+   "PLACA" NVARCHAR2(64) ,
+   "ESTADO_PRESTADO" NUMBER(10)
+);
+
+-- Creating table 'USUARIOS'
+CREATE TABLE "ACTIVOS"."USUARIOS" (
+   "USUARIO1" VARCHAR2(50 CHAR) NOT NULL,
+   "CLAVE" VARCHAR2(50 CHAR) ,
+   "ANFITRION" VARCHAR2(2 CHAR) NOT NULL,
+   "IDCONTACTO" VARCHAR2(26 CHAR) NOT NULL,
+   "IDUSUARIO" VARCHAR2(26 CHAR) NOT NULL,
+   "DESCRIPCION" VARCHAR2(255 CHAR) ,
+   "NOMBRE" VARCHAR2(100 CHAR) NOT NULL,
+   "IDESTACION" VARCHAR2(26 CHAR) NOT NULL,
+   "ESTADO" NUMBER(38) NOT NULL,
+   "CORREO" VARCHAR2(400 CHAR)
+);
+
+-- Creating table 'TIPOS_ACTIVOS'
+CREATE TABLE "ACTIVOS"."TIPOS_ACTIVOS" (
+   "ID" NUMBER(10) NOT NULL,
+   "NOMBRE" NVARCHAR2(127) NOT NULL
+);
+
+-- Creating table 'ESTADOS_ACTIVOS'
+CREATE TABLE "ACTIVOS"."ESTADOS_ACTIVOS" (
+   "ID" NUMBER(10) NOT NULL,
+   "NOMBRE" NVARCHAR2(30) NOT NULL
+);
+
+-- Creating table 'V_ANFITRIONA'
+CREATE TABLE "ACTIVOS"."V_ANFITRIONA" (
+   "ID" VARCHAR2(2 CHAR) NOT NULL,
+   "NOMBRE" VARCHAR2(100 CHAR) NOT NULL,
+   "SIGLAS" VARCHAR2(20 CHAR) NOT NULL,
+   "MONEDA" VARCHAR2(26 CHAR) NOT NULL,
+   "TIPOCAMBIO" VARCHAR2(10 CHAR) NOT NULL,
+   "TIPOUSUARIO" NUMBER(38) NOT NULL,
+   "TIPOCAMBIO_CONTA" VARCHAR2(10 CHAR) NOT NULL,
+   "MONEDA_CONTA" VARCHAR2(26 CHAR) NOT NULL
+);
+
+-- Creating table 'V_ESTACION'
+CREATE TABLE "ACTIVOS"."V_ESTACION" (
+   "ID" VARCHAR2(26 CHAR) NOT NULL,
+   "NOMBRE" VARCHAR2(100 CHAR) NOT NULL,
+   "SIGLAS" VARCHAR2(20 CHAR) ,
+   "RESERVABLE" VARCHAR2(1 CHAR)
+);
+
+-- Creating table 'V_MONEDA'
+CREATE TABLE "ACTIVOS"."V_MONEDA" (
+   "ID" VARCHAR2(26 CHAR) NOT NULL,
+   "NOMBRE" VARCHAR2(50 CHAR) ,
+   "SIMBOLO" VARCHAR2(3 CHAR)
+);
+
+-- Creating table 'V_PROVEEDOR'
+CREATE TABLE "ACTIVOS"."V_PROVEEDOR" (
+   "IDPROVEEDOR" VARCHAR2(50 CHAR) NOT NULL,
+   "FECHAINGRESO" DATE NOT NULL,
+   "NOMBRE" VARCHAR2(50 CHAR) NOT NULL,
+   "RAZONSOCIAL" VARCHAR2(50 CHAR) ,
+   "ESTADO" NUMBER(1) NOT NULL,
+   "TIPOCEDULA" NUMBER(10) ,
+   "CEDULA" VARCHAR2(50 CHAR) NOT NULL,
+   "TELEFONO" VARCHAR2(50 CHAR) ,
+   "FAX" VARCHAR2(50 CHAR) ,
+   "SITIOWEB" VARCHAR2(100 CHAR) ,
+   "CORREOELECTRONICO" VARCHAR2(50 CHAR) ,
+   "LOCACION" NUMBER(1) NOT NULL,
+   "IDPAIS" VARCHAR2(50 CHAR) ,
+   "IDPROVINCIA" VARCHAR2(50 CHAR) ,
+   "DIRECCION" VARCHAR2(255 CHAR) ,
+   "IDFORMAPAGO" VARCHAR2(50 CHAR) ,
+   "IDPLAZO" VARCHAR2(50 CHAR) ,
+   "DESCUENTO" NUMBER(8,2) ,
+   "INTERESMORA" NUMBER(8,2) ,
+   "COMENTARIO" VARCHAR2(255 CHAR) ,
+   "CONGELAR" NUMBER(1) ,
+   "CREADO" DATE NOT NULL,
+   "CREADOR" VARCHAR2(50 CHAR) NOT NULL,
+   "MODIFICADO" DATE NOT NULL,
+   "MODIFICADOR" VARCHAR2(50 CHAR) NOT NULL,
+   "MONEDA" VARCHAR2(26 CHAR) ,
+   "NOMBRE_CORTO" VARCHAR2(20 CHAR)
+);
+
+-- Creating table 'V_TIPO_CAMBIO'
+CREATE TABLE "ACTIVOS"."V_TIPO_CAMBIO" (
+   "IDDOCUMENTO" VARCHAR2(26 CHAR) NOT NULL,
+   "TIPOCAMBIO" NUMBER(38) NOT NULL
+);
+
+-- Creating table 'V_USUARIOS'
+CREATE TABLE "ACTIVOS"."V_USUARIOS" (
+   "USUARIO" VARCHAR2(50 CHAR) NOT NULL,
+   "CLAVE" VARCHAR2(50 CHAR) ,
+   "ANFITRION" VARCHAR2(2 CHAR) NOT NULL,
+   "IDCONTACTO" VARCHAR2(26 CHAR) NOT NULL,
+   "IDUSUARIO" VARCHAR2(26 CHAR) NOT NULL,
+   "DESCRIPCION" VARCHAR2(255 CHAR) ,
+   "CORREO" VARCHAR2(400 CHAR) ,
+   "NOMBRE" VARCHAR2(100 CHAR) NOT NULL,
+   "IDESTACION" VARCHAR2(26 CHAR) NOT NULL,
+   "ESTADO" NUMBER(38) NOT NULL
+);
+
+-- Creating table 'CENTROS_DE_COSTOS'
+CREATE TABLE "ACTIVOS"."CENTROS_DE_COSTOS" (
+   "Id" NUMBER(10) NOT NULL,
+   "Nombre" NCLOB NOT NULL
+);
+
+-- Creating table 'TIPOS_TRANSACCIONES'
+CREATE TABLE "ACTIVOS"."TIPOS_TRANSACCIONES" (
+   "ID" NUMBER(10) NOT NULL,
+   "NOMBRE" NVARCHAR2(30) NOT NULL
+);
+
+-- Creating table 'TRANSACCIONES'
+CREATE TABLE "ACTIVOS"."TRANSACCIONES" (
+   "ID" NUMBER(10) NOT NULL,
+   "FECHA" TIMESTAMP NOT NULL,
+   "RESPONSABLE" NVARCHAR2(63) NOT NULL,
+   "ESTADO" NVARCHAR2(30) NOT NULL,
+   "DESCRIPCION" NVARCHAR2(1024) NOT NULL,
+   "ACTIVOID" NVARCHAR2(256) NOT NULL
+);
+
+-- Creating table 'V_COURSES'
+CREATE TABLE "ACTIVOS"."V_COURSES" (
+   "COURSES" NUMBER(10) NOT NULL,
+   "COURSES_CODE" VARCHAR2(100 CHAR) ,
+   "COURSE_NAME" VARCHAR2(1000 CHAR)
+);
+
+-- Creating table 'ACTIVOPRESTAMO'
+CREATE TABLE "ACTIVOS"."ACTIVOPRESTAMO" (
+   "ACTIVOes_ID" NVARCHAR2(256) NOT NULL,
+   "PRESTAMOes_ID" VARCHAR2(25 CHAR) NOT NULL
+);
+
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on "ID_PRESTAMO", "TIPO_ACTIVO", "CANTIDAD"in table 'EQUIPO_SOLICITADO'
+ALTER TABLE "ACTIVOS"."EQUIPO_SOLICITADO"
+ADD CONSTRAINT "PK_EQUIPO_SOLICITADO"
+   PRIMARY KEY ("ID_PRESTAMO", "TIPO_ACTIVO", "CANTIDAD" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'PRESTAMOS'
+ALTER TABLE "ACTIVOS"."PRESTAMOS"
+ADD CONSTRAINT "PK_PRESTAMOS"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "PK_ACTIVOS"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "IDUSUARIO"in table 'USUARIOS'
+ALTER TABLE "ACTIVOS"."USUARIOS"
+ADD CONSTRAINT "PK_USUARIOS"
+   PRIMARY KEY ("IDUSUARIO" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'TIPOS_ACTIVOS'
+ALTER TABLE "ACTIVOS"."TIPOS_ACTIVOS"
+ADD CONSTRAINT "PK_TIPOS_ACTIVOS"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'ESTADOS_ACTIVOS'
+ALTER TABLE "ACTIVOS"."ESTADOS_ACTIVOS"
+ADD CONSTRAINT "PK_ESTADOS_ACTIVOS"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'V_ANFITRIONA'
+ALTER TABLE "ACTIVOS"."V_ANFITRIONA"
+ADD CONSTRAINT "PK_V_ANFITRIONA"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'V_ESTACION'
+ALTER TABLE "ACTIVOS"."V_ESTACION"
+ADD CONSTRAINT "PK_V_ESTACION"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'V_MONEDA'
+ALTER TABLE "ACTIVOS"."V_MONEDA"
+ADD CONSTRAINT "PK_V_MONEDA"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "IDPROVEEDOR"in table 'V_PROVEEDOR'
+ALTER TABLE "ACTIVOS"."V_PROVEEDOR"
+ADD CONSTRAINT "PK_V_PROVEEDOR"
+   PRIMARY KEY ("IDPROVEEDOR" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "IDDOCUMENTO"in table 'V_TIPO_CAMBIO'
+ALTER TABLE "ACTIVOS"."V_TIPO_CAMBIO"
+ADD CONSTRAINT "PK_V_TIPO_CAMBIO"
+   PRIMARY KEY ("IDDOCUMENTO" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "IDUSUARIO"in table 'V_USUARIOS'
+ALTER TABLE "ACTIVOS"."V_USUARIOS"
+ADD CONSTRAINT "PK_V_USUARIOS"
+   PRIMARY KEY ("IDUSUARIO" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "Id"in table 'CENTROS_DE_COSTOS'
+ALTER TABLE "ACTIVOS"."CENTROS_DE_COSTOS"
+ADD CONSTRAINT "PK_CENTROS_DE_COSTOS"
+   PRIMARY KEY ("Id" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'TIPOS_TRANSACCIONES'
+ALTER TABLE "ACTIVOS"."TIPOS_TRANSACCIONES"
+ADD CONSTRAINT "PK_TIPOS_TRANSACCIONES"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ID"in table 'TRANSACCIONES'
+ALTER TABLE "ACTIVOS"."TRANSACCIONES"
+ADD CONSTRAINT "PK_TRANSACCIONES"
+   PRIMARY KEY ("ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "COURSES"in table 'V_COURSES'
+ALTER TABLE "ACTIVOS"."V_COURSES"
+ADD CONSTRAINT "PK_V_COURSES"
+   PRIMARY KEY ("COURSES" )
+   ENABLE
+   VALIDATE;
+
+
+-- Creating primary key on "ACTIVOes_ID", "PRESTAMOes_ID"in table 'ACTIVOPRESTAMO'
+ALTER TABLE "ACTIVOS"."ACTIVOPRESTAMO"
+ADD CONSTRAINT "PK_ACTIVOPRESTAMO"
+   PRIMARY KEY ("ACTIVOes_ID", "PRESTAMOes_ID" )
+   ENABLE
+   VALIDATE;
+
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on "ID_PRESTAMO" in table 'EQUIPO_SOLICITADO'
+ALTER TABLE "ACTIVOS"."EQUIPO_SOLICITADO"
+ADD CONSTRAINT "FK_A_PRESTAMOS"
+   FOREIGN KEY ("ID_PRESTAMO")
+   REFERENCES "ACTIVOS"."PRESTAMOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_A_PRESTAMOS'
+CREATE INDEX "IX_FK_A_PRESTAMOS"
+ON "ACTIVOS"."EQUIPO_SOLICITADO"
+   ("ID_PRESTAMO");
+
+-- Creating foreign key on "ACTIVOes_ID" in table 'ACTIVOPRESTAMO'
+ALTER TABLE "ACTIVOS"."ACTIVOPRESTAMO"
+ADD CONSTRAINT "FK_ACTIVOPRESTAMO_ACTIVO"
+   FOREIGN KEY ("ACTIVOes_ID")
+   REFERENCES "ACTIVOS"."ACTIVOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_ACTIVOPRESTAMO_ACTIVO'
+CREATE INDEX "IX_FK_ACTIVOPRESTAMO_ACTIVO"
+ON "ACTIVOS"."ACTIVOPRESTAMO"
+   ("ACTIVOes_ID");
+
+-- Creating foreign key on "PRESTAMOes_ID" in table 'ACTIVOPRESTAMO'
+ALTER TABLE "ACTIVOS"."ACTIVOPRESTAMO"
+ADD CONSTRAINT "FK_ACTIVOPRESTAMO_PRESTAMO"
+   FOREIGN KEY ("PRESTAMOes_ID")
+   REFERENCES "ACTIVOS"."PRESTAMOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_ACTIVOPRESTAMO_PRESTAMO'
+CREATE INDEX "IX_FK_ACTIVOPRESTAMO_PRESTAMO"
+ON "ACTIVOS"."ACTIVOPRESTAMO"
+   ("PRESTAMOes_ID");
+
+-- Creating foreign key on "CED_SOLICITA" in table 'PRESTAMOS'
+ALTER TABLE "ACTIVOS"."PRESTAMOS"
+ADD CONSTRAINT "FK_Solicita"
+   FOREIGN KEY ("CED_SOLICITA")
+   REFERENCES "ACTIVOS"."USUARIOS"
+       ("IDUSUARIO")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_Solicita'
+CREATE INDEX "IX_FK_Solicita"
+ON "ACTIVOS"."PRESTAMOS"
+   ("CED_SOLICITA");
+
+-- Creating foreign key on "CED_APRUEBA" in table 'PRESTAMOS'
+ALTER TABLE "ACTIVOS"."PRESTAMOS"
+ADD CONSTRAINT "FK_Aprueba"
+   FOREIGN KEY ("CED_APRUEBA")
+   REFERENCES "ACTIVOS"."USUARIOS"
+       ("IDUSUARIO")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_Aprueba'
+CREATE INDEX "IX_FK_Aprueba"
+ON "ACTIVOS"."PRESTAMOS"
+   ("CED_APRUEBA");
+
+-- Creating foreign key on "TIPO_ACTIVOID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_TIPO_ACTIVOACTIVO"
+   FOREIGN KEY ("TIPO_ACTIVOID")
+   REFERENCES "ACTIVOS"."TIPOS_ACTIVOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_TIPO_ACTIVOACTIVO'
+CREATE INDEX "IX_FK_TIPO_ACTIVOACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("TIPO_ACTIVOID");
+
+-- Creating foreign key on "TIPOS_ACTIVOSID" in table 'EQUIPO_SOLICITADO'
+ALTER TABLE "ACTIVOS"."EQUIPO_SOLICITADO"
+ADD CONSTRAINT "FK_TIPOS_ACTIVOSEQUIPO_SOLICITADO"
+   FOREIGN KEY ("TIPOS_ACTIVOSID")
+   REFERENCES "ACTIVOS"."TIPOS_ACTIVOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_TIPOS_ACTIVOSEQUIPO_SOLICITADO'
+CREATE INDEX "IX_FK_TIPOS_ACTIVOSEQUIPO_SOLICITADO"
+ON "ACTIVOS"."EQUIPO_SOLICITADO"
+   ("TIPOS_ACTIVOSID");
+
+-- Creating foreign key on "ESTADO_ACTIVOID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_ESTADO_ACTIVOACTIVO"
+   FOREIGN KEY ("ESTADO_ACTIVOID")
+   REFERENCES "ACTIVOS"."ESTADOS_ACTIVOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_ESTADO_ACTIVOACTIVO'
+CREATE INDEX "IX_FK_ESTADO_ACTIVOACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("ESTADO_ACTIVOID");
+
+-- Creating foreign key on "V_MONEDAID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_V_MONEDAACTIVO"
+   FOREIGN KEY ("V_MONEDAID")
+   REFERENCES "ACTIVOS"."V_MONEDA"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_V_MONEDAACTIVO'
+CREATE INDEX "IX_FK_V_MONEDAACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("V_MONEDAID");
+
+-- Creating foreign key on "CENTRO_DE_COSTOId" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_CENTRO_DE_COSTOACTIVO"
+   FOREIGN KEY ("CENTRO_DE_COSTOId")
+   REFERENCES "ACTIVOS"."CENTROS_DE_COSTOS"
+       ("Id")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_CENTRO_DE_COSTOACTIVO'
+CREATE INDEX "IX_FK_CENTRO_DE_COSTOACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("CENTRO_DE_COSTOId");
+
+-- Creating foreign key on "V_USUARIOSIDUSUARIO" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_V_USUARIOSACTIVO"
+   FOREIGN KEY ("V_USUARIOSIDUSUARIO")
+   REFERENCES "ACTIVOS"."V_USUARIOS"
+       ("IDUSUARIO")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_V_USUARIOSACTIVO'
+CREATE INDEX "IX_FK_V_USUARIOSACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("V_USUARIOSIDUSUARIO");
+
+-- Creating foreign key on "V_PROVEEDORIDPROVEEDOR" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_V_PROVEEDORACTIVO"
+   FOREIGN KEY ("V_PROVEEDORIDPROVEEDOR")
+   REFERENCES "ACTIVOS"."V_PROVEEDOR"
+       ("IDPROVEEDOR")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_V_PROVEEDORACTIVO'
+CREATE INDEX "IX_FK_V_PROVEEDORACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("V_PROVEEDORIDPROVEEDOR");
+
+-- Creating foreign key on "V_ANFITRIONAID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_V_ANFITRIONAACTIVO"
+   FOREIGN KEY ("V_ANFITRIONAID")
+   REFERENCES "ACTIVOS"."V_ANFITRIONA"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_V_ANFITRIONAACTIVO'
+CREATE INDEX "IX_FK_V_ANFITRIONAACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("V_ANFITRIONAID");
+
+-- Creating foreign key on "TIPO_TRANSACCIONID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_TIPO_TRANSACCIONACTIVO"
+   FOREIGN KEY ("TIPO_TRANSACCIONID")
+   REFERENCES "ACTIVOS"."TIPOS_TRANSACCIONES"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_TIPO_TRANSACCIONACTIVO'
+CREATE INDEX "IX_FK_TIPO_TRANSACCIONACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("TIPO_TRANSACCIONID");
+
+-- Creating foreign key on "ACTIVOID" in table 'TRANSACCIONES'
+ALTER TABLE "ACTIVOS"."TRANSACCIONES"
+ADD CONSTRAINT "FK_ACTIVOTRANSACCION"
+   FOREIGN KEY ("ACTIVOID")
+   REFERENCES "ACTIVOS"."ACTIVOS"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_ACTIVOTRANSACCION'
+CREATE INDEX "IX_FK_ACTIVOTRANSACCION"
+ON "ACTIVOS"."TRANSACCIONES"
+   ("ACTIVOID");
+
+-- Creating foreign key on "V_ESTACIONID" in table 'ACTIVOS'
+ALTER TABLE "ACTIVOS"."ACTIVOS"
+ADD CONSTRAINT "FK_V_ESTACIONACTIVO"
+   FOREIGN KEY ("V_ESTACIONID")
+   REFERENCES "ACTIVOS"."V_ESTACION"
+       ("ID")
+   ENABLE
+   VALIDATE;
+
+-- Creating index for FOREIGN KEY 'FK_V_ESTACIONACTIVO'
+CREATE INDEX "IX_FK_V_ESTACIONACTIVO"
+ON "ACTIVOS"."ACTIVOS"
+   ("V_ESTACIONID");
+```
+
+### 2. Correr el script _setupUsuarios.sql_
+Este archivo sql contiene la declaración de las tablas que utiliza ASP.NET para trabajar con el _Identity framework_, encargado de manejar todo el sistema de seguridad y autenticación de los usuarios del sistema.
+
+Si al correr el _script_ se presenta algún problema de compilación, se recomienda volver a ejecutar el script y ya con eso debe de quedar bien establecidas las tablas y triggers en la base de datos. Se adjunta el archivo _setupUsuarios.sql_ y el contenido es el siguiente, por si desea "copiar y pegar" el contenido en SQLDeveloper.
+
+```sql
+CREATE TABLE "ActivosRoles" (
+  "Id" NVARCHAR2(128) NOT NULL,
+  "Name" NVARCHAR2(256) NOT NULL,
+  PRIMARY KEY ("Id")
+);
+
+
+CREATE TABLE "ActivosUserRoles" (
+  "UserId" NVARCHAR2(128) NOT NULL,
+  "RoleId" NVARCHAR2(128) NOT NULL,
+  PRIMARY KEY ("UserId", "RoleId")
+);
+
+-- creacion de usuarios----------------------------------------------------------------------
+
+  CREATE TABLE "ActivosUsers"
+   (	"Id" NVARCHAR2(128),
+	"Email" NVARCHAR2(256),
+	"EmailConfirmed" NUMBER(1,0),
+	"PasswordHash" NVARCHAR2(256),
+	"SecurityStamp" NVARCHAR2(256),
+	"PhoneNumber" NVARCHAR2(256),
+	"PhoneNumberConfirmed" NUMBER(1,0),
+	"TwoFactorEnabled" NUMBER(1,0),
+	"LockoutEndDateUtc" TIMESTAMP (7),
+	"LockoutEnabled" NUMBER(1,0),
+	"AccessFailedCount" NUMBER(10,0),
+	"UserName" NVARCHAR2(256),
+	"Nombre" NVARCHAR2(100),
+	"Apellidos" NVARCHAR2(100),
+	"Cedula" NVARCHAR2(20),
+	"EstacionID" VARCHAR2(26 BYTE)
+   ) ;
+   ALTER TABLE "ActivosUsers" ADD PRIMARY KEY ("Id") ENABLE;
+   ALTER TABLE "ActivosUsers" ADD CONSTRAINT "FK_Users_Estacion" FOREIGN KEY ("EstacionID")
+	  REFERENCES "ACTIVOS"."ESTACION" ("ID") ON DELETE CASCADE ENABLE
+
+---------------------------------------------------------------------------------------------
+
+CREATE TABLE "ActivosUserClaims" (
+  "Id" NUMBER(10) NOT NULL,
+  "UserId" NVARCHAR2(128) NOT NULL,
+  "ClaimType" NVARCHAR2(256) NULL,
+  "ClaimValue" NVARCHAR2(256) NULL,
+  PRIMARY KEY ("Id")
+);
+
+
+CREATE SEQUENCE "ActivosUserClaims_SEQ";
+
+CREATE TABLE "ActivosUserLogins" (
+  "LoginProvider" NVARCHAR2(128) NOT NULL,
+  "ProviderKey" NVARCHAR2(128) NOT NULL,
+  "UserId" NVARCHAR2(128) NOT NULL,
+  PRIMARY KEY ("LoginProvider", "ProviderKey", "UserId")
+);
+
+
+CREATE UNIQUE INDEX "RoleNameIndex" ON "ActivosRoles" ("Name");
+
+CREATE INDEX "IX_ActivosUserRoles_UserId" ON "ActivosUserRoles" ("UserId");
+
+
+CREATE INDEX "IX_ActivosUserRoles_RoleId" ON "ActivosUserRoles" ("RoleId");
+
+
+CREATE UNIQUE INDEX "UserNameIndex" ON "ActivosUsers" ("UserName");
+
+
+CREATE INDEX "IX_ActivosUserClaims_UserId" ON "ActivosUserClaims" ("UserId");
+
+
+CREATE INDEX "IX_ActivosUserLogins_UserId" ON "ActivosUserLogins" ("UserId");
+
+
+ALTER TABLE "ActivosUserRoles"
+  ADD CONSTRAINT "FK_UserRoles_Roles" FOREIGN KEY ("RoleId") REFERENCES "ActivosRoles" ("Id")
+  ON DELETE CASCADE;
+
+ALTER TABLE "ActivosUserRoles"
+  ADD CONSTRAINT "FK_UserRoles_Users" FOREIGN KEY ("UserId") REFERENCES "ActivosUsers" ("Id")
+  ON DELETE CASCADE;
+
+ALTER TABLE "ActivosUserClaims"
+  ADD CONSTRAINT "FK_UserClaims_Users" FOREIGN KEY ("UserId") REFERENCES "ActivosUsers" ("Id")
+  ON DELETE CASCADE;
+
+ALTER TABLE "ActivosUserLogins"
+  ADD CONSTRAINT "FK_UserLogins_Users" FOREIGN KEY ("UserId") REFERENCES "ActivosUsers" ("Id")
+  ON DELETE CASCADE;
+
+  CREATE OR REPLACE TRIGGER "ActivosUserClaims_INS_TRG"
+    BEFORE INSERT ON "ActivosUserClaims"
+    FOR EACH ROW
+  BEGIN
+    SELECT "ActivosUserClaims_SEQ".NEXTVAL INTO :NEW."Id" FROM DUAL;
+  END;
+```
+### 3. Correr el script _Activos.sql_
+
+El archivo _Activos.sql_ contiene la creación de los _triggers_ necesarios para ejecutar correctamente inserciones dentro de la base de datos. Este archivo es relativamente corto en comparación con los otros y se muestra acontinuación:
+
+```sql
+------------------------------------
+-- Vista de Usuarios desde activos
+------------------------------------
+ GRANT SELECT ANY TABLE TO "ACTIVOS" WITH ADMIN OPTION;
+ create or replace view activos.v_usuarios as
+ select * from RESERVAS.usuarios;
+-----------------------------------------------------------------------------------
+-- Vista del documento de tipo de cambio (para conversiones de dolares a colones)
+-----------------------------------------------------------------------------------
+-- GRANT SELECT ANY TABLE TO "ACTIVOS" WITH ADMIN OPTION;
+ create or replace view activos.v_tipo_cambio as
+ select * from FINANCIERO.DOCUMENTO_TIPOCAMBIO;
+
+CREATE SEQUENCE INSERT_TIPO_ACTIVO
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+/
+
+CREATE OR REPLACE TRIGGER id_tipos_activos
+  BEFORE INSERT ON TIPOS_ACTIVOS
+  FOR EACH ROW
+BEGIN
+  SELECT INSERT_TIPO_ACTIVO.nextval INTO :new.Id from dual;
+END;
+/
+CREATE SEQUENCE INSERT_TIPO_TRANSACCION
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+/
+CREATE OR REPLACE TRIGGER id_tipo_transaccion
+    BEFORE INSERT ON tipos_transacciones
+    FOR EACH ROW
+  BEGIN
+    SELECT INSERT_TIPO_TRANSACCION.nextval INTO :new.ID from dual;
+  END;
+  /
+
+  CREATE SEQUENCE INSERT_ESTADO_ACTIVO
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+/
+
+CREATE OR REPLACE TRIGGER id_estado_activo
+    BEFORE INSERT ON estados_activos
+    FOR EACH ROW
+  BEGIN
+    SELECT INSERT_ESTADO_ACTIVO.nextval INTO :new.ID from dual;
+  END;
+  /
+
+  CREATE SEQUENCE INSERT_TRANSACCION
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+  /
+
+  CREATE OR REPLACE TRIGGER id_transaccion
+    BEFORE INSERT ON transacciones
+    FOR EACH ROW
+  BEGIN
+    SELECT INSERT_TRANSACCION.nextval INTO :new.ID from dual;
+  END;
+  /
+
+  CREATE SEQUENCE INSERT_CENTRO_COSTOS
+  START WITH 1
+  INCREMENT BY 1
+  NOCACHE
+  NOCYCLE;
+  /
+
+  CREATE OR REPLACE TRIGGER ID_CENTRO_COSTOS
+    BEFORE INSERT ON centros_de_costos
+    FOR EACH ROW
+  BEGIN
+    SELECT INSERT_CENTRO_COSTOS.nextval INTO :new."Id" from dual;
+  END;
+  /
+
+  commit;
+```
+
+Adicionalmente, se encarga de crear unas vistas necesarias de otros esquemas para poder consultar la información presente en esas tablas.
+
+### 4. Correr el script _Prestamos trigger.sql_
+
+Este script contiene la creación de un _trigger_ que se necesita para la correcta creación de un préstamo en la base de datos. El archivo se adjunta y su contenido es el siguiente:
+
+```sql
+
+CREATE SEQUENCE
+INSERT_NUMERO_BOLETA
+START WITH 1
+INCREMENT BY 1
+NOCACHE
+NOCYCLE
+/
+
+CREATE OR REPLACE TRIGGER num_boleta
+BEFORE INSERT ON PRESTAMOS
+FOR EACH ROW
+BEGIN
+SELECT INSERT_NUMERO_BOLETA.nextval
+INTO : new.NUMERO_BOLETA from dual;
+END;
+```
+
+---
+
+### Último paso (extra)
+
+Una vez terminada la ejecución de estos scripts, es de **suma importancia** que agrege un _Estado de activo_ llamado "_Disponible_" y un rol que se llame "_superadmin_". Si no se realizan estos pasos, el sistema tendrá un comportamiento que no es el esperado y muchas funcionalidades no se ejecutaran correctamente.

@@ -1,0 +1,74 @@
+﻿@using Microsoft.AspNet.Identity.EntityFramework
+@model IdentityRole
+@{
+    ViewBag.Title = "Detalles del rol";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <br />
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Regresar", "Index")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h2>@ViewBag.Title</h2>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="row">
+            <div class="col-xs-2">
+                <label class="control-label" for="nombre">Nombre</label>
+            </div>
+            <div class="col-xs-10">
+                <p id="nombre">@Html.DisplayFor(model => model.Name)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h4>Lista de usuarios con este rol</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        @if (ViewBag.UserCount == 0)
+        {
+            <hr />
+            <p>No hay usuarios con este rol.</p>
+        }
+        else
+        {
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in ViewBag.Users)
+                {
+                        <tr>
+                            <td>@item.FullName</td>
+                            <td> @item.UserName</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#opciones_avanzadas").addClass("active");
+    </script>
+}

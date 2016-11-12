@@ -1,0 +1,107 @@
+﻿@model ICollection<Activos_PrestamosOET.Models.ACTIVO>
+
+@{
+    ViewBag.Title = "BoletaPDF";
+}
+
+<div>
+    <h1>Activos en Inventario</h1>
+    <br />
+    <div class="container">
+        <div class="row">
+		<table class="table" style="margin-top:20px" border="0.2">
+			<thead>
+				<tr>
+					<th><b>Fabricante</b></th>
+					<th><b>Modelo</b></th>
+					<th><b>Placa</b></th>
+					<th><b>Tipo</b></th>
+					<th><b>Descripciones</b></th>
+					<th><b>Prestado a</b></th>
+					<th><b>Prestado hasta</b></th>
+					<th><b>Curso</b></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+				<tr>
+					<td>
+						@{if (item.FABRICANTE == null)
+							{
+								<text>No especificado</text>
+							}
+							else
+							{
+								<text>@item.FABRICANTE</text>
+							}}
+					</td>
+					<td>
+						@{if (item.MODELO == null)
+							{
+								<text>No especificado</text>
+							}
+							else
+							{
+								<text>@item.MODELO</text>
+							}}
+					</td>
+					<td>
+						@{if (item.PLACA == null)
+							{
+								<text>No especificada</text>
+							}
+							else
+							{
+								<text>@item.PLACA</text>
+							}}
+					</td>
+					<td>
+						@{if (item.TIPOS_ACTIVOS == null)
+							{
+								<text>No especificado</text>
+							}
+							else
+							{
+								<text>@item.TIPOS_ACTIVOS.NOMBRE</text>
+							}}
+					</td>
+					<td>
+						@{if (item.DESCRIPCION == null)
+						{
+							<text>No especificada</text>
+						}
+						else
+						{
+							<text>@item.DESCRIPCION</text>
+						}}
+					</td>
+						@{ if (item.ESTADO_PRESTADO == 0)
+						{
+							<td><text>No prestado</text></td>
+							<td>No prestado</td>
+							<td>No prestado a curso</td>
+						}
+						else
+						{
+							<td>@item.PRESTAMOes.Last().ActivosUser.Nombre</td>                            
+							<td><text>@item.PRESTAMOes.Last().FECHA_RETIRO.ToShortDateString()</text></td>
+							if (@item.PRESTAMOes.Last().V_COURSESCOURSES != 0)
+							{
+								<td>@item.PRESTAMOes.Last().V_COURSES.COURSE_NAME</td>
+							}
+							else
+							{
+								<td>No prestado a curso</td>
+							}
+						}
+						}
+				</tr>
+				}
+			</tbody>
+		</table>
+		<br />
+		<br />
+        </div>
+    </div>
+</div>

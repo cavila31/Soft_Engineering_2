@@ -1,0 +1,269 @@
+﻿@model Activos_PrestamosOET.Models.ACTIVO
+
+@{
+    ViewBag.Title = "Borrado";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <br />
+        @Html.ActionLink("Regresar", "Index")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>¿Está seguro que desea eliminar el activo con las siguientes características?</h3>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>General</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.DESCRIPCION)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.TIPOS_ACTIVOS.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.TIPOS_ACTIVOS.NOMBRE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.NUMERO_SERIE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.NUMERO_SERIE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.MODELO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.MODELO)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.FABRICANTE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.FABRICANTE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.NUMERO_LOTE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.NUMERO_LOTE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.NUMERO_DOCUMENTO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.NUMERO_DOCUMENTO)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.PRECIO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                <div class="row">
+                    <div class="col-xs-6">
+                        @Html.DisplayFor(model => model.PRECIO)
+                    </div>
+                    <div class="col-xs-6">
+                        @if (Model.EXENTO)
+                        {<p>Gravado</p>}
+                        else
+                        {<p>Exento</p> }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.TIPO_CAPITAL, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                @if (Model.TIPO_CAPITAL)
+            {<p>Capital mayor</p>}
+            else
+            {<p>Capital menor</p> }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.V_PROVEEDOR.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.V_PROVEEDOR.NOMBRE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.FECHA_COMPRA, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.FECHA_COMPRA)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.INICIO_SERVICIO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.INICIO_SERVICIO)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.PRESTABLE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @if (Model.PRESTABLE)
+                {
+                    <p>Sí</p>
+                }
+                else
+                {
+                    <p>No</p>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Asignación</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.ESTADOS_ACTIVOS.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.ESTADOS_ACTIVOS.NOMBRE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.V_ESTACION.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.V_ESTACION.NOMBRE)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.CENTROS_DE_COSTOS.Nombre, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.CENTROS_DE_COSTOS.Nombre)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.V_EMPLEADOS.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.V_EMPLEADOS.NOMBRE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.DESECHADO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @if (Model.DESECHADO)
+                {
+                    <p class="text-danger">Si</p>
+                }
+                else
+                {
+                    <p class="text-success">No</p>
+                }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.COMENTARIO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.COMENTARIO)
+            </div>
+        </div>
+        <div class="row hidden-xs">
+            <br />
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Información de ingreso original</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.TIPOS_TRANSACCIONES.NOMBRE, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.TIPOS_TRANSACCIONES.NOMBRE)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.INGRESADO_POR, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.INGRESADO_POR)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                @Html.LabelFor(model => model.FECHA_INGRESO, htmlAttributes: new { @class = "control-label" })
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                @Html.DisplayFor(model => model.FECHA_INGRESO)
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="pull-right">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-primary" })
+                    <input type="submit" value="Borrar" class="btn btn-default" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#activos").addClass("active");
+    </script>
+}

@@ -1,0 +1,82 @@
+﻿@model PagedList.IPagedList<Activos_PrestamosOET.Models.V_EMPLEADOS>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Consulta empleados";
+}
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Consulta de activos por empleados</h2>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        @using (Html.BeginForm("Index", "Empleados", FormMethod.Get))
+        {
+            <div class="input-group">
+                @Html.Editor("busqueda", ViewBag.FiltroActual as string, new { htmlAttributes = new { @class = "form-control", @placeholder = "Ingrese su búsqueda de empleados" } })
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default" title="Buscar"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
+            </div>
+        }
+        <div class="pull-left">
+            <p>
+                <small>
+                    @Html.ActionLink("Limpiar búsqueda", "Index", "Empleados", new { @title = "Eliminar los filtros de la búsqueda" })
+                </small>
+            </p>
+        </div>
+        <br/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.ActionLink("Nombre", "Index", new { orden = ViewBag.Nombre }, new { @title = "Ordenar por el nombre" })
+                    </th>
+                    <th>
+                        @Html.ActionLink("Correo electrónico", "Index", new { orden = ViewBag.Correo }, new { @title = "Ordenar por el correo electrónico" })
+                    </th>
+                    <th class="text-center">Ver historial de activos</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NOMBRE)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EMAIL)
+                        </td>
+                        <td class="text-center">
+                            <a href="@Url.Action("Details", new { id = item.IDEMPLEADO })">
+                                <span class="glyphicon glyphicon-eye-open text-info" aria-hidden="true"></span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <small><span class="text-muted">Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount</span></small>
+        @Html.PagedListPager(Model, pagina => Url.Action("Index", new { pagina, orden = ViewBag.OrdenActual }))
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#activos").addClass("active");
+    </script>
+}

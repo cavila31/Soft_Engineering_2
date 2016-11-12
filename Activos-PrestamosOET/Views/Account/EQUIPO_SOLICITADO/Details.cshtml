@@ -1,0 +1,26 @@
+﻿@model Activos_PrestamosOET.Models.EQUIPO_SOLICITADO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EQUIPO_SOLICITADO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PRESTAMO.MOTIVO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRESTAMO.MOTIVO)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
